@@ -47,11 +47,11 @@ object WordCount {
 
     for ( i <- 0 to noJob - 1) {
       val oPath = args(4) + i
-      //val wordCounts = input.reduceByKey(_ + _)
+      val wordCounts = input.reduceByKey(_ + _)
       if (runningMode == "SEQ") {
-        val wordCounts = input.reduceByKey(_ + _).saveAsTextFile(oPath)
+        wordCounts.saveAsTextFile(oPath)
       } else {
-        val job : JobConcurrent = new JobConcurrent(input.reduceByKey(_ + _), i, oPath)
+        val job : JobConcurrent = new JobConcurrent(wordCounts, i, oPath)
         job.start()
       }
     }
