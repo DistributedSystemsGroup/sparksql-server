@@ -1,3 +1,4 @@
+Caching: 21163
 
 running job0
 
@@ -8,13 +9,13 @@ running job2
 running job3
 
 running job4
-job4: 73626
+job4: 68949
 
-job1: 110410
+job0: 100849
 
-job3: 147882
+job3: 135266
 
-job2: 185996
+job1: 182646
 
-job0: 219417
+job2: 220755
 

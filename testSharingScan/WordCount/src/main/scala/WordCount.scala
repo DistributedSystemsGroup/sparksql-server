@@ -40,7 +40,13 @@ object WordCount {
     val input = sc.textFile(args(3)).flatMap(_.split(" ")).map((_, 1))
 
     if (caching == 1) {
-      input.cache()
+      if(runningMode == "CON") {
+          val tStart = System.currentTimeMillis()
+          input.cache().count()
+          println("Caching: " + (System.currentTimeMillis() - tStart))
+      }
+      else
+          input.cache()
     }
 
     for ( i <- 0 to noJob - 1) {

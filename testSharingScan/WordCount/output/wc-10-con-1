@@ -1,3 +1,4 @@
+Caching: 21308
 
 running job0
 
@@ -9,32 +10,32 @@ running job3
 
 running job4
 
-running job5
-
-running job6
 
 running job8
 
+
 running job9
 
+running job5
+running job6
 running job7
-job3: 72279
+job5: 67272
 
-job5: 113779
+job8: 107736
 
-job2: 154261
+job4: 148394
 
-job0: 186181
+job0: 184766
 
-job8: 226338
+job7: 222647
 
-job9: 268664
+job9: 254006
 
-job6: 303861
+job1: 298126
 
-job4: 342595
+job2: 329328
 
-job7: 381960
+job3: 370902
 
-job1: 417422
+job6: 419175
 
