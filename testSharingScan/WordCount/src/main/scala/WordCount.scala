@@ -12,6 +12,8 @@ object WordCount {
     
     val conf : SparkConf = new SparkConf()
 
+    //------Begin set application's name------
+    
     //Number of WC jobs
     val noJob = args(0).toInt
 
@@ -35,10 +37,14 @@ object WordCount {
 
     conf.setAppName(appName)
 
+    ////------End set application's name------
+
     val sc = new SparkContext(conf)
 
     val input = sc.textFile(args(3)).flatMap(_.split(" ")).map((_, 1))
 
+    //caching + concurrent --> cache + dummy action
+    //caching + sequential --> only cache
     if (caching == 1) {
       if(runningMode == "CON") {
           val tStart = System.currentTimeMillis()
@@ -49,6 +55,9 @@ object WordCount {
           input.cache()
     }
 
+    //for loop to repeat jobs
+    //if runnning mode is sequential --> execute it sequentially
+    //else --> put into a thread and execute it
     for ( i <- 0 to noJob - 1) {
       val oPath = args(4) + i
       val wordCounts = input.reduceByKey(_ + _)
@@ -64,6 +73,7 @@ object WordCount {
   }
 }
 
+//Threading class for running job concurrently
 class JobConcurrent(rdd: RDD[_], id: Integer, output: String) extends Thread {
   override def run(): Unit = {
     println()
