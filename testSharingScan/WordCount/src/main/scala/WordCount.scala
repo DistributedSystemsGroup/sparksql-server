@@ -40,16 +40,16 @@ object WordCount {
     val input = sc.textFile(args(3)).flatMap(_.split(" ")).map((_, 1))
 
     if (caching == 1) {
-      val tStart =  System.currentTimeMillis()
-      input.cache().count()
-      println("Caching: " + (System.currentTimeMillis() - tStart))
+      input.cache()
     }
 
     for ( i <- 0 to noJob - 1) {
       val oPath = args(4) + i
       val wordCounts = input.reduceByKey(_ + _)
       if (runningMode == "SEQ") {
+        val tStart = System.currentTimeMillis()
         wordCounts.saveAsTextFile(oPath)
+        println("job" + i + ": " + (System.currentTimeMillis() - tStart))
       } else {
         val job : JobConcurrent = new JobConcurrent(wordCounts, i, oPath)
         job.start()
