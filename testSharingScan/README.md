@@ -8,3 +8,6 @@ Arguments:
 - Caching: 1 for caching, 0 for no Caching
 - Input path
 - Output path
+
+![Image of result]
+(https://lh3.googleusercontent.com/Ncn4fr8wpDSqbAxuMVaCEli2pvGLZXtdPNjPrvm7UkTAYIlUqvZzhbBv4VkvpCPiEI_97ykjY4AedAw=w1656-h799-rw)
