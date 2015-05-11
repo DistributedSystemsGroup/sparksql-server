@@ -37,7 +37,7 @@ object WordCount {
 
     conf.setAppName(appName)
 
-    ////------End set application's name------
+    //------End set application's name------
 
     val sc = new SparkContext(conf)
 
@@ -76,11 +76,9 @@ object WordCount {
 //Threading class for running job concurrently
 class JobConcurrent(rdd: RDD[_], id: Integer, output: String) extends Thread {
   override def run(): Unit = {
-    println()
     println("running job" + id)
     val tStart = System.currentTimeMillis()
     rdd.saveAsTextFile(output)
     println("job" + id + ": " + (System.currentTimeMillis() - tStart))
-    println()
   }
 }
