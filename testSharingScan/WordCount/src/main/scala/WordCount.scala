@@ -41,7 +41,7 @@ object WordCount {
 
     val sc = new SparkContext(conf)
 
-    val input = sc.textFile(args(3)).flatMap(_.split(" ")).map((_, 1))
+    val input = sc.textFile(args(3))
 
     //caching + concurrent --> cache + dummy action
     //caching + sequential --> only cache
@@ -60,7 +60,8 @@ object WordCount {
     //else --> put into a thread and execute it
     for ( i <- 0 to noJob - 1) {
       val oPath = args(4) + i
-      val wordCounts = input.reduceByKey(_ + _)
+      val mapped = input.flatMap(_.split(" ")).map((_, 1))
+      val wordCounts = mapped.reduceByKey(_ + _)
       if (runningMode == "SEQ") {
         val tStart = System.currentTimeMillis()
         wordCounts.saveAsTextFile(oPath)
