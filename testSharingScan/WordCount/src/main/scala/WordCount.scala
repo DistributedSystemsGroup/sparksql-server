@@ -57,16 +57,16 @@ object WordCount {
     //caching + concurrent --> cache + dummy action
     //caching + sequential --> only cache
     if (caching == 1) {
+      input.cache()
       if(runningMode == "CON") {
           val tStart = System.currentTimeMillis()
           if(force == 0)
-            input.cache().count()
-          else
+            input.count()
+          else {
             sc.runJob(input, (iter: Iterator[_]) => {})
+          }
           println("Caching: " + (System.currentTimeMillis() - tStart))
       }
-      else
-          input.cache()
     }
 
     //for loop to repeat jobs
