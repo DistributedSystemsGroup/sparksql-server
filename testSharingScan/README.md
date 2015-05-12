@@ -11,7 +11,7 @@ Arguments:
 
 Result:
 ![Image of result]
-(https://lh3.googleusercontent.com/_Y-CuxFlTN4CcwxYIKjVX_dDjBLvaCxTBoOKHPnCC8N6WsIxz_U5-ncwpHRbHCbYF-L7ERKxH1Gcoec=w1656-h799-rw)
+(https://lh5.googleusercontent.com/8Lt8joijwqGXEj1CTGVN9_NjMKeQE9XrrIgUuxfJuOsk7p8jaWzbWjwoNEQlwhpGjRXaIE21oTMfanc=w1896-h872-rw)
 With number of jobs are: 2, 5, 10
 - caching-jobs total runtime > non-caching-jobs total runtime
 - sequential-jobs total runtime (using FIFO) > concurrent-jobs total runtime (using FAIR + multithreading)
