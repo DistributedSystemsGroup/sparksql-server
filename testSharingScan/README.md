@@ -6,6 +6,7 @@ Arguments:
 - Number of WordCount Jobs
 - Running Mode: SEQ for sequential, CON for concurrent
 - Caching: 1 for caching, 0 for no Caching
+- Force runJob: 1 for force runJob, 0 for dummy action
 - Input path
 - Output path
 
