@@ -33,16 +33,18 @@ object WordCount {
     var appName = args(0) + " WCs - " + runningMode + " - "
 
     if (caching == 1)
-      appName = appName + "Caching - "
+      appName = appName + "Caching"
     else
-      appName = appName + "No Caching - "
+      appName = appName + "No Caching"
 
     //Force runJob or not: 0 or 1
     var force = args(3).toInt
-    if (force == 1)
-      appName = appName + "Force runJob"
-    else
-      appName = appName + "Dummy Action"
+    
+    if(runningMode == "CON" && caching == 1)
+        if(force == 1)
+            appName = appName + " - Force runJob"
+        else
+            appName = appName + " - Dummy Action"
 
     conf.setAppName(appName)
 
