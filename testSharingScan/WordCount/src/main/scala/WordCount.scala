@@ -10,6 +10,8 @@ object WordCount {
 
   def main(args: Array[String]) {
     
+    // TODO: println usage
+    
     val conf : SparkConf = new SparkConf()
 
     //------Begin set application's name------
@@ -31,9 +33,16 @@ object WordCount {
     var appName = args(0) + " WCs - " + runningMode + " - "
 
     if (caching == 1)
-      appName = appName + "Caching"
+      appName = appName + "Caching - "
     else
-      appName = appName + "No Caching"
+      appName = appName + "No Caching - "
+
+    //Force runJob or not: 0 or 1
+    var force = args(3).toInt
+    if (force == 1)
+      appName = appName + "Force runJob"
+    else
+      appName = appName + "Dummy Action"
 
     conf.setAppName(appName)
 
@@ -41,14 +50,17 @@ object WordCount {
 
     val sc = new SparkContext(conf)
 
-    val input = sc.textFile(args(3))
+    val input = sc.textFile(args(4))
 
     //caching + concurrent --> cache + dummy action
     //caching + sequential --> only cache
     if (caching == 1) {
       if(runningMode == "CON") {
           val tStart = System.currentTimeMillis()
-          input.cache().count()
+          if(force == 0)
+            input.cache().count()
+          else
+            sc.runJob(input, (iter: Iterator[_]) => {})
           println("Caching: " + (System.currentTimeMillis() - tStart))
       }
       else
@@ -59,7 +71,7 @@ object WordCount {
     //if runnning mode is sequential --> execute it sequentially
     //else --> put into a thread and execute it
     for ( i <- 0 to noJob - 1) {
-      val oPath = args(4) + i
+      val oPath = args(5) + i
       val mapped = input.flatMap(_.split(" ")).map((_, 1))
       val wordCounts = mapped.reduceByKey(_ + _)
       if (runningMode == "SEQ") {
