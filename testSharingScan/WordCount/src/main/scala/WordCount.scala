@@ -4,7 +4,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
-
+import org.apache.spark.storage.StorageLevel
 
 object WordCount {
 
@@ -37,8 +37,15 @@ object WordCount {
     else
       appName = appName + "No Caching"
 
+    //serialize or not: 0 or 1
+    var ser = args(3).toInt
+    if (ser == 1) {
+        appName = appName + " - Ser"
+        conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+    }
+
     //Force runJob or not: 0 or 1
-    var force = args(3).toInt
+    var force = args(4).toInt
     
     if(runningMode == "CON" && caching == 1)
         if(force == 1)
@@ -47,25 +54,35 @@ object WordCount {
             appName = appName + " - Dummy Action"
 
     conf.setAppName(appName)
+    //conf.set("spark.storage.unrollFraction", "0.01")
+    //conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
 
     //------End set application's name------
 
     val sc = new SparkContext(conf)
 
-    val input = sc.textFile(args(4))
+    val input = sc.textFile(args(5))
 
     //caching + concurrent --> cache + dummy action
     //caching + sequential --> only cache
     if (caching == 1) {
-      input.cache()
       if(runningMode == "CON") {
           val tStart = System.currentTimeMillis()
-          if(force == 0)
-            input.count()
-          else {
+          if(force == 0) {
+            if(ser == 1)
+                input.persist(StorageLevel.MEMORY_ONLY_SER).count()
+            else
+                input.cache().count()
+          } else {
             sc.runJob(input, (iter: Iterator[_]) => {})
-          }
           println("Caching: " + (System.currentTimeMillis() - tStart))
+          }
+      }
+      else {
+        if(ser == 1)
+            input.persist(StorageLevel.MEMORY_ONLY_SER)
+        else
+            input.cache()
       }
     }
 
@@ -73,7 +90,7 @@ object WordCount {
     //if runnning mode is sequential --> execute it sequentially
     //else --> put into a thread and execute it
     for ( i <- 0 to noJob - 1) {
-      val oPath = args(5) + i
+      val oPath = args(6) + i
       val mapped = input.flatMap(_.split(" ")).map((_, 1))
       val wordCounts = mapped.reduceByKey(_ + _)
       if (runningMode == "SEQ") {
