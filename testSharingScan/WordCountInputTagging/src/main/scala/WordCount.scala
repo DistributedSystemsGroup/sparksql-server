@@ -41,12 +41,13 @@ object WordCount {
 
     val input = sc.textFile(args(1))
     
+    //replicate one input record to x input record, x is noJob
     def replicate(x: Any) = for(i <-0 to noJob-1) yield ("q" + i, x)
 
-    val wc = input.flatMap(_.split(" "))
-                  .flatMap(x => replicate(x))
-                  .map(x => (x,1))
-                  .reduceByKey(_ + _).map(x => (x._1._1, (x._1._2,x._2)))
+    val wc = input.flatMap(_.split(" ")) //split line into words
+                  .flatMap(x => replicate(x)) //replicate each word (e.g: ("q1", Universe), ("q2", Universe)...)
+                  .map(x => (x,1)) //output 1 for each "key" (e.g: (("q1", Universe), 1)
+                  .reduceByKey(_ + _).map(x => (x._1._1, (x._1._2,x._2))) //reduceByKey, then, detag input
 
     wc.saveAsHadoopFile(args(2), classOf[String], classOf[String],classOf[RDDMultipleTextOutputFormat])
   }
