@@ -11,6 +11,7 @@ import org.apache.hadoop.io.NullWritable
 
 import org.apache.spark.Partitioner
 
+//Partitioner class
 class IdentityIntPartitioner(maxKey: Int) extends Partitioner {
     
     def numPartitions = maxKey
@@ -20,6 +21,7 @@ class IdentityIntPartitioner(maxKey: Int) extends Partitioner {
     }
 }
 
+//OutputFormat class using for multiple output files
 class RDDMultipleTextOutputFormat extends MultipleTextOutputFormat[Any, Any] {
     
     override def generateActualKey(key: Any, value: Any): Any = NullWritable.get()
