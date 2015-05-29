@@ -27,14 +27,10 @@ import org.apache.hadoop.io.{Text, NullWritable}
 import org.apache.hadoop.mapred._
 import org.apache.hadoop.util.Progressable
 import org.apache.spark.rdd.RDD
-//import org.apache.spark.sql.DataFrame
 
 import org.apache.spark._
 import org.apache.spark.SparkContext._
 
-//import org.apache.spark.sql.{DataFrame, SQLContext}
-//import org.apache.spark.sql.catalyst.plans.logical.{Union, LogicalPlan}
-//import org.apache.spark.sql.catalyst.trees.TreeNode
 import sun.reflect.generics.tree.BaseType
 
 import org.apache.spark.storage.StorageLevel
@@ -99,42 +95,32 @@ class RDDMultipleTextOutputFormat extends MultipleTextOutputFormat[Any, Any] wit
 }
 
 object WordCount {
-                                                   
-    def main(args: Array[String]) {
+  def main(args: Array[String]) {
 
-        // TODO: println usage
+  // TODO: println usage
+  
+  val conf : SparkConf = new SparkConf()
+
+  //------Begin set application's name------
     
-        val conf : SparkConf = new SparkConf()
+  //Number of WC jobs
+  val noJob = args(0).toInt
 
-        //------Begin set application's name------
-    
-        //Number of WC jobs
-        val noJob = args(0).toInt
+  val appName = "WordCount Input Tagging - " + noJob + " jobs"
 
-        //conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+  conf.setAppName(appName)
 
-        val appName = "WordCount Input Tagging - " + noJob + " jobs"
+  val sc = new SparkContext(conf)
 
-        conf.setAppName(appName)
+  val input = sc.textFile(args(1))
+  
+  def gx(x: Any) = for(i <-0 to noJob-1) yield (i, x)
 
-        val sc = new SparkContext(conf)
-
-        val input = sc.textFile(args(1))
-    
-        def gx(x: Any) = for(i <-0 to noJob-1) yield (i, x)
-
-//        val partitioner = new IdentityIntPartitioner(noJob)
-
-        val wc = input.flatMap(_.split(" "))
-                      .flatMap(x => gx(x))
-                      .map(x => (x,1))
-                      .reduceByKey(_ + _)
-                      //.map(x => (x._1._1, (x._1._2,x._2)))
-                      //.coalesce(1)
-                      //.partitionBy(partitioner)
-                      //.saveAsTextFile(args(2))
-                      //.collect.foreach(println)
-                      .saveAsHadoopFile(args(2), classOf[Tuple2[_,_]], classOf[Integer], classOf[RDDMultipleTextOutputFormat])
+  val wc = input.flatMap(_.split(" "))
+                .flatMap(x => gx(x))
+                .map(x => (x,1))
+                .reduceByKey(_ + _)
+                .saveAsHadoopFile(args(2), classOf[Tuple2[_,_]], classOf[Integer], classOf[RDDMultipleTextOutputFormat])
 
     }
 }
