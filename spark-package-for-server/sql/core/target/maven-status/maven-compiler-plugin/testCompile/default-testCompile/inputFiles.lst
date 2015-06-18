@@ -1,0 +1,5 @@
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/test/java/test/org/apache/spark/sql/JavaRowSuite.java
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/test/java/test/org/apache/spark/sql/sources/JavaSaveLoadSuite.java
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/test/java/test/org/apache/spark/sql/JavaDataFrameSuite.java
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/test/java/test/org/apache/spark/sql/JavaApplySchemaSuite.java
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/test/java/test/org/apache/spark/sql/JavaUDFSuite.java

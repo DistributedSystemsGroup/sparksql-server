@@ -1,0 +1,35 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Spark Project External ZeroMQ
+
+
+From: 'an unknown organization'
+  - jnr-constants (http://github.com/jnr/jnr-constants) com.github.jnr:jnr-constants:jar:0.8.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Java Native Access  net.java.dev.jna:jna:jar:3.0.9
+
+  - empty (http://nexus.sonatype.org/oss-repository-hosting.html/unused) org.spark-project.spark:unused:jar:1.0.0
+    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Google' (http://www.google.com/)
+  - Protocol Buffer Java API (http://code.google.com/p/protobuf) org.spark-project.protobuf:protobuf-java:bundle:2.5.0-spark
+    License: New BSD license  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'LAMP/EPFL' (http://lamp.epfl.ch/)
+  - Scala Library (http://www.scala-lang.org/) org.scala-lang:scala-library:jar:2.11.2
+    License: BSD 3-Clause  (http://www.scala-lang.org/license.html)
+
+From: 'org.spark-project.zeromq' (https://github.com/valotrading/zeromq-scala-binding)
+  - zeromq-scala-binding (https://github.com/valotrading/zeromq-scala-binding) org.spark-project.zeromq:zeromq-scala-binding_2.11:jar:0.0.7-spark
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Typesafe Inc.' (http://www.typesafe.com)
+  - akka-zeromq (http://akka.io/) org.spark-project.akka:akka-zeromq_2.11:jar:2.3.4-spark
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

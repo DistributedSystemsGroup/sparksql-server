@@ -1,0 +1,3 @@
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/external/kafka/src/test/java/org/apache/spark/streaming/kafka/JavaKafkaStreamSuite.java
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/external/kafka/src/test/java/org/apache/spark/streaming/kafka/JavaKafkaRDDSuite.java
+/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/external/kafka/src/test/java/org/apache/spark/streaming/kafka/JavaDirectKafkaStreamSuite.java
