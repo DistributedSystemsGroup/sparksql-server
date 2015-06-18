@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sparksql-server">
+    <output-path>$PROJECT_DIR$/out/artifacts/sparksql_server</output-path>
+    <root id="archive" name="sparksql-server.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
