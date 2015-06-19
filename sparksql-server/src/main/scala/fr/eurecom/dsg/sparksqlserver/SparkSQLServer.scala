@@ -10,8 +10,6 @@ import org.apache.spark.{Logging, SparkConf, SparkContext}
 
 import scala.language.existentials
 
-case class Person(name: String, age: Int)
-
 object SparkSQLServer extends Logging {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
