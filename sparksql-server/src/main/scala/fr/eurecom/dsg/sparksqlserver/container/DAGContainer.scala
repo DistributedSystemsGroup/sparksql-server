@@ -37,7 +37,7 @@ class DAGContainer {
  */
 class DAGPiggyback {
 
-  private var descriptor : mutable.HashMap[String, Any] = null
+  private var descriptor : mutable.HashMap[String, Any] = new mutable.HashMap[String, Any]
 
   def getDescriptor : mutable.HashMap[String, Any] = descriptor
 

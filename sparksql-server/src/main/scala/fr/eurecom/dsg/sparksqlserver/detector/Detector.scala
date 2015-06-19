@@ -22,12 +22,13 @@ class Detector() {
     var res : Array[AnalysedBag] = Array.empty[AnalysedBag]
 
     val scan : DetectionRule = new ScanSharing(listDAG)
+    scan.initiate()
     addToRuleSet(scan)
 
     //val join : DetectionRule = new JoinSharing(queue)
     //addToRuleSet(join)
 
-    for (i <-0 to ruleSet.length) {
+    for (i <-0 to ruleSet.length - 1) {
       val tmp : ArrayBuffer[Array[DAGContainer]] = ruleSet{i}.analyse()
       if (ruleSet{i}.isInstanceOf[ScanSharing])
         res = res :+ new AnalysedBag("SCAN", tmp)

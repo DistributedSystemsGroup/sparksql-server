@@ -3,7 +3,7 @@ package fr.eurecom.dsg.sparksqlserver.listener
 import java.io._
 import java.net.{ServerSocket, Socket, URL}
 import java.util.concurrent.atomic.AtomicInteger
-import fr.eurecom.dsg.sparksqlserver.container.DAGContainer
+import fr.eurecom.dsg.sparksqlserver.container.{DAGPiggyback, DAGContainer}
 import fr.eurecom.dsg.sparksqlserver.util.ClassLoaderOIS
 import org.apache.spark.deploy.SparkHadoopUtil
 import org.apache.spark.rdd.{ShuffledRDD, MapPartitionsRDD, RDD}
@@ -124,8 +124,6 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
 
     println(rdd.toDebugString)
 
-    rdd.saveAsTextFile("/home/hoang/rdddd")
-
     rdd
   }
 
@@ -159,7 +157,7 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
 
       dagCtn.setDAG(clientRDD)
 
-      dagCtn.setPiggyback(null)
+      dagCtn.setPiggyback(new DAGPiggyback)
 
       this.synchronized {
         dagQueue.queue.enqueue(dagCtn)

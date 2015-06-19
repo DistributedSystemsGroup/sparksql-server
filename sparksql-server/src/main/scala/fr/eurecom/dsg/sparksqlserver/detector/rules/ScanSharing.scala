@@ -22,7 +22,7 @@ class ScanSharing(listDAG : ArrayBuffer[DAGContainer]) extends DetectionRule() {
   //update piggyback information
   override def initiate() : Unit = {
     //get sourcelist and add new piggyback information
-    for (i <- 0 to listDAG.size) {
+    for (i <- 0 to listDAG.size - 1) {
       var sources : Array[String] = Array.empty[String]
 
       if(listDAG{i}.getDAG().isInstanceOf[ShuffledRDD[_,_,_]])
@@ -60,7 +60,7 @@ class ScanSharing(listDAG : ArrayBuffer[DAGContainer]) extends DetectionRule() {
   def getSourceList(a: Array[DAGContainer]) : Array[String] = {
     var res : Array[String] = Array.empty[String]
     for (i <-0 to a.length - 1)
-      res = res ++ a{i}.getPiggyback().getDescriptor.get(indicator).asInstanceOf[Array[String]]
+      res = res ++ a{i}.getPiggyback().getDescriptor.get(indicator).asInstanceOf[Some[_]].x.asInstanceOf[Array[String]]
     res
   }
 
