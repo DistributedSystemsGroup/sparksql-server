@@ -35,7 +35,7 @@ class WorksharingExecutor(queue : DAGQueue) extends Thread {
 
       if(queue.queue.size == ServerConstants.DAG_QUEUE_WINDOW_SIZE) {
 
-        for(i <-0 to ServerConstants.DAG_QUEUE_WINDOW_SIZE)
+        for(i <-0 to ServerConstants.DAG_QUEUE_WINDOW_SIZE - 1)
           processingDAG = processingDAG :+ queue.queue.dequeue
 
         //preSched.schedule
