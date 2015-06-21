@@ -21,4 +21,9 @@ class AnalysedBag(sharingType : String, listDag : ArrayBuffer[Array[DAGContainer
 
   def getListDag() : ArrayBuffer[Array[DAGContainer]] = lstDag
 
+  //after an no-sharing bag went through the optimizer
+  def toOptimizedBag() : OptimizedBag = {
+    new OptimizedBag(false)
+  }
+
 }

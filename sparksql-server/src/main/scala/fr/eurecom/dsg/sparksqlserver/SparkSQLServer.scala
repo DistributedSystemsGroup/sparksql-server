@@ -38,7 +38,7 @@ object SparkSQLServer extends Logging {
     server.start()
 
     //check queue (will be passed to dag selector)
-    val wsExe: WorksharingExecutor = new WorksharingExecutor(queue)
+    val wsExe: WorksharingExecutor = new WorksharingExecutor(sc, queue)
     wsExe.start()
     logInfo("ShareScanner is running...")
   }
