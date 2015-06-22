@@ -13,7 +13,7 @@ class CostModel {
 
   }
 
-  def compute() : Unit = {
+  def compute() : Any = {
 
   }
 
