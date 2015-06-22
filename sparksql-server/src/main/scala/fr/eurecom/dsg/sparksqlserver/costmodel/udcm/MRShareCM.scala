@@ -7,8 +7,20 @@ import fr.eurecom.dsg.sparksqlserver.costmodel.CostModel
  */
 class MRShareCM extends CostModel {
 
+  private var f : Double = 0
+
   override def compute() : Unit = {
 
   }
+
+  def GAIN(): Double = {
+    0
+  }
+
+  def GS(): Double = {
+    0
+  }
+
+
 
 }

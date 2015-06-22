@@ -46,11 +46,21 @@ class WorksharingExecutor(sc : SparkContext, queue : DAGQueue) extends Thread {
 
         for(i <-0 to ServerConstants.DAG_QUEUE_WINDOW_SIZE - 1)
           processingDAG = processingDAG :+ queue.queue.dequeue
+        //processingDAG = {DAG1, DAG2, DAG3, DAG4, DAG5}
 
         val selected : ArrayBuffer[DAGContainer] = preSched.select(processingDAG)
+        //selected = {DAG1, DAG2, DAG3, DAG4, DAG5} //pre-scheduling information will be added in the future
+
         val analysed : Array[AnalysedBag] = detector.detect(selected)
+        //analysed = {[SCAN,{{DAG1, DAG2}, {DAG3, DAG4}, {DAG5}]}
+        //analysed{0} is scan-sharing type, we could have analysed{1} is join-sharing type
+
         val optimized : Array[OptimizedBag] = optimizer.optimize(analysed)
+        //optimized = {{SCAN, {DAG1, DAG2}, true, caching}, {SCAN, {DAG3, DAG4}, true, inputtagging}, {SCAN, {DAG5}, false, null}}
+
         val rewritten : Array[RewrittenBag] = rewriter.rewrite(optimized)
+        //rewritten = {{DAG1, DAG2}, {DAG34}, {DAG5}}
+
         postSched.schedule(sc, rewritten)
 
         processingDAG.clear()
