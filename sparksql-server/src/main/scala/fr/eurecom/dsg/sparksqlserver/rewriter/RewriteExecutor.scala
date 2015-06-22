@@ -11,11 +11,8 @@ class RewriteExecutor() {
   def rewrite(optimizedBag : Array[OptimizedBag]): Array[RewrittenBag] = {
     var res : Array[RewrittenBag] = Array.empty[RewrittenBag]
     for (i <-0 to optimizedBag.length - 1)
-      if(optimizedBag{i}.getSharingType() == "SCAN")
-        if(optimizedBag{i}.isSharable()) {
-          if(optimizedBag{i}.getRule().isInstanceOf[Caching])
-            res = res :+ optimizedBag{i}.getRule.execute()
-        }
+      if(optimizedBag{i}.isSharable())
+        res = res :+ optimizedBag{i}.getRule().execute()
 
     res
   }
