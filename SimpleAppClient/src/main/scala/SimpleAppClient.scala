@@ -53,7 +53,7 @@ object SimpleAppClient {
     //send table name to server in rddToDataFrameHolder / SQLContext
     //send sql query
     val teenagers = sqlContext.sql("SELECT name FROM people WHERE age >= 13 AND age <= 19")
-    val table_query = "people-SELECT name FROM people WHERE age >= 13 AND age <= 19"
+    val table_query = "people-SELECT name FROM people WHERE age >= 13 AND age <= 19-examples/src/main/resources/people.txt"
     val tmp = teenagers.map(t => "Name: " + t(0))
 
     val jarSender : JarSubmitter = new JarSubmitter(src)
