@@ -10,41 +10,61 @@ import org.apache.spark.rdd.{ShuffledRDD, RDD}
  */
 class Caching extends RewriteRule{
 
-  def getScanRDD(dep : Seq[Dependency[_]], arr : Array[RDD[_]]) : Array[RDD[_]] = {
-    var arrTmp : Array[RDD[_]] = Array.empty[RDD[_]]
-    if(dep{0}.rdd.getDP.size !=0){
-      arrTmp = arrTmp ++ getScanRDD(dep{0}.rdd.getDP, arrTmp)
+  def getPostScanRDD(dep : Seq[Dependency[_]], scan : RDD[_]): RDD[_] = {
+    if(dep{0}.rdd.getDP{0}.rdd == scan)
+      dep{0}.rdd
+    else
+      getPostScanRDD(dep{0}.rdd.getDP, scan)
+  }
+
+  def getScanRDD(dep : Seq[Dependency[_]]): RDD[_] = {
+    if(dep{0}.rdd.toString.contains("Scan"))
+      dep{0}.rdd
+    else
+      getScanRDD(dep{0}.rdd.getDP)
+  }
+
+  def replaceScan(dag : RDD[_], pst : RDD[_]): Unit = {
+
+    var scan : RDD[_] = null
+    var post : RDD[_] = null
+
+    if(dag.isInstanceOf[ShuffledRDD[_,_,_]]) {
+      scan = getScanRDD(dag.asInstanceOf[ShuffledRDD[_, _, _]].getPrev().getDP)
+      post = getPostScanRDD(dag.asInstanceOf[ShuffledRDD[_,_,_]].getPrev().getDP, scan)
     }
-    else{
-      if(dep{0}.rdd.dependencies.size!=0) {
-        val tmpDep = dep{0}.rdd.dependencies
-        for(i <-0 to tmpDep.size - 1)
-          arrTmp = arrTmp ++ getScanRDD(tmpDep{i}.rdd.getDP, arrTmp)
-      } else {
-        arrTmp = arrTmp :+ dep{0}.rdd
-      }
+    else {
+      scan = getScanRDD(dag.getDP)
+      post = getPostScanRDD(dag.getDP, scan)
     }
-    arrTmp
+
+    post.setDeps(pst.getDP)
+
   }
 
   override def execute(opt : OptimizedBag): RewrittenBag = {
     val lstDag : Array[DAGContainer] = opt.getListDag()
     val firstDag : RDD[_] = lstDag{0}.getDAG()
-    var scan : Array[RDD[_]] = Array.empty[RDD[_]]
-    if(firstDag.isInstanceOf[ShuffledRDD[_,_,_]])
-      scan = getScanRDD(firstDag.asInstanceOf[ShuffledRDD[_,_,_]].getPrev().getDP, scan)
-    else
-      scan = getScanRDD(firstDag.getDP, scan)
+    var scan : RDD[_] = null
+    var post : RDD[_] = null
+    if(firstDag.isInstanceOf[ShuffledRDD[_,_,_]]) {
+      scan = getScanRDD(firstDag.asInstanceOf[ShuffledRDD[_, _, _]].getPrev().getDP)
+      post = getPostScanRDD(firstDag.asInstanceOf[ShuffledRDD[_, _, _]].getPrev().getDP, scan)
+    }
+    else {
+      scan = getScanRDD(firstDag.getDP)
+      post = getPostScanRDD(firstDag.getDP, scan)
+    }
 
     //cache it!
-    for (i <- 0 to scan.length - 1)
-      scan{i}.cache()
+    scan.cache()
 
     //replace this cached scanRDD of this firstDAG to the rest DAGs in the Bag
-
+    for (i <- 1 to lstDag.length - 1) {
+      replaceScan(lstDag{i}.getDAG(), post)
+    }
     //turn it into a rewrittenBag and return it
-
-    null
+    new RewrittenBag(lstDag)
   }
 
 }

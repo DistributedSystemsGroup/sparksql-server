@@ -81,11 +81,12 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
     while(lastDep) {
       val deps = in.readObject()
       if (deps.isInstanceOf[String]) {
-        splitArr = deps.asInstanceOf[String].split("-")
+        splitArr = deps.asInstanceOf[String].split("_")
         lastDep = false
         queue{queue.length - 1}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd.setSparkContext(sc)
         queue{queue.length - 1}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd.setDeps(nullDep)
         queue{queue.length - 1}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd.setCreationSite()
+        queue{queue.length - 1}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd.setName(splitArr{2})
         for (i <- (0 to queue.length - 2).reverse) {
           if(queue{i}.isInstanceOf[Seq[Dependency[_]]]) {
             if(queue{i}.asInstanceOf[Seq[Dependency[_]]]{0}.isInstanceOf[OneToOneDependency[_]]){
@@ -114,6 +115,7 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
             }
           }
         }
+        queue{queue.length - 2}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd.setName("Scan")
         rdd = queue{0}.asInstanceOf[RDD[_]]
       } else {
         queue = queue :+ deps
