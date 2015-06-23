@@ -12,7 +12,7 @@ class RewriteExecutor() {
     var res : Array[RewrittenBag] = Array.empty[RewrittenBag]
     for (i <-0 to optimizedBag.length - 1)
       if(optimizedBag{i}.isSharable())
-        res = res :+ optimizedBag{i}.getRule().execute()
+        res = res :+ optimizedBag{i}.getRule().execute(optimizedBag{i})
 
     res
   }
