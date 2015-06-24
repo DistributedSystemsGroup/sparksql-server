@@ -9,6 +9,5 @@ import scala.collection.mutable.ArrayBuffer
  */
 class PreSchedulingStrategy {
   def execute(dagLst : ArrayBuffer[DAGContainer]): ArrayBuffer[DAGContainer] = {
-    dagLst
   }
 }

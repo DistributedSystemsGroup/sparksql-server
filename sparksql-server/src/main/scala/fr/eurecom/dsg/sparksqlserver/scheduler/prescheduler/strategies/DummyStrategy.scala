@@ -9,7 +9,7 @@ import scala.collection.mutable.ArrayBuffer
  * Created by hoang on 6/24/15.
  */
 class DummyStrategy extends PreSchedulingStrategy {
-  override def execute(dagLst : ArrayBuffer[DAGContainer]): Unit = {
-
+  override def execute(dagLst : ArrayBuffer[DAGContainer]): ArrayBuffer[DAGContainer] = {
+    dagLst
   }
 }
