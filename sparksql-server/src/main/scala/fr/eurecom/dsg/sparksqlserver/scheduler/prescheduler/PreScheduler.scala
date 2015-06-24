@@ -1,6 +1,7 @@
 package fr.eurecom.dsg.sparksqlserver.scheduler.prescheduler
 
 import fr.eurecom.dsg.sparksqlserver.container.DAGContainer
+import fr.eurecom.dsg.sparksqlserver.scheduler.prescheduler.strategies.DummyStrategy
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -11,8 +12,15 @@ import scala.collection.mutable.ArrayBuffer
  * Receive DAG Queue and pass to WS detector
  * FIFO strategy for the moment
  */
-class PreScheduler() {
+class PreScheduler(strat : String) {
 
-  def select(dagLst : ArrayBuffer[DAGContainer]) : ArrayBuffer[DAGContainer] = dagLst
+  def schedule(dagLst : ArrayBuffer[DAGContainer]) : ArrayBuffer[DAGContainer] = {
+    var strategy : PreSchedulingStrategy = null
+
+    if(strat == "DUMMY")
+      strategy = new DummyStrategy
+
+    strategy.execute(dagLst)
+  }
 
 }

@@ -27,7 +27,7 @@ class WorksharingExecutor(sc : SparkContext, queue : DAGQueue) extends Thread {
 
   private var processingDAG : ArrayBuffer[DAGContainer] = new ArrayBuffer[DAGContainer](ServerConstants.DAG_QUEUE_WINDOW_SIZE)
 
-  private val preSched : PreScheduler = new PreScheduler
+  private val preSched : PreScheduler = new PreScheduler(ServerConstants.PRE_SCHEDULING_STRATEGY)
 
   private val detector : Detector = new Detector
 
@@ -35,7 +35,7 @@ class WorksharingExecutor(sc : SparkContext, queue : DAGQueue) extends Thread {
 
   private val rewriter : RewriteExecutor = new RewriteExecutor
 
-  private val postSched : PostScheduler = new PostScheduler
+  private val postSched : PostScheduler = new PostScheduler(ServerConstants.POST_SCHEDULING_STRATEGY)
 
   override def run(): Unit = {
 
@@ -48,7 +48,7 @@ class WorksharingExecutor(sc : SparkContext, queue : DAGQueue) extends Thread {
           processingDAG = processingDAG :+ queue.queue.dequeue
         //processingDAG = {DAG1, DAG2, DAG3, DAG4, DAG5}
 
-        val selected : ArrayBuffer[DAGContainer] = preSched.select(processingDAG)
+        val selected : ArrayBuffer[DAGContainer] = preSched.schedule(processingDAG)
         //selected = {DAG1, DAG2, DAG3, DAG4, DAG5} //pre-scheduling information will be added in the future
 
         val analysed : Array[AnalysedBag] = detector.detect(selected)
@@ -59,7 +59,7 @@ class WorksharingExecutor(sc : SparkContext, queue : DAGQueue) extends Thread {
         //optimized = {{SCAN, {DAG1, DAG2}, true, caching}, {SCAN, {DAG3, DAG4}, true, inputtagging}, {SCAN, {DAG5}, false, null}}
 
         val rewritten : Array[RewrittenBag] = rewriter.rewrite(optimized)
-        //rewritten = {{DAG1, DAG2}, {DAG34}, {DAG5}}
+        //rewritten = {{cache DAG1, DAG2}, {DAG34}, {DAG5}}
 
         postSched.schedule(sc, rewritten)
 
