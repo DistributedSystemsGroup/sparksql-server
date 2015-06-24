@@ -8,6 +8,8 @@ import fr.eurecom.dsg.sparksqlserver.rewriter.RewriteRule
  */
 class Hybrid extends RewriteRule {
 
+  private val rewriteRuleName : String = "HYBRID_SCAN"
+
   override def execute(opt : OptimizedBag): RewrittenBag = {
     null
   }

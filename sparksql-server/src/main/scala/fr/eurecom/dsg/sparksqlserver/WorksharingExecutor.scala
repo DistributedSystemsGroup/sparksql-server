@@ -8,8 +8,8 @@ import fr.eurecom.dsg.sparksqlserver.listener.DAGQueue
 import fr.eurecom.dsg.sparksqlserver.optimizer.{OptimizationExecutor, Optimizer}
 import fr.eurecom.dsg.sparksqlserver.optimizer.optimizers.MRShareOptimizer
 import fr.eurecom.dsg.sparksqlserver.rewriter.RewriteExecutor
-import fr.eurecom.dsg.sparksqlserver.scheduler.postscheduler.FinalScheduler
-import fr.eurecom.dsg.sparksqlserver.scheduler.prescheduler.DAGSelector
+import fr.eurecom.dsg.sparksqlserver.scheduler.postscheduler.PostScheduler
+import fr.eurecom.dsg.sparksqlserver.scheduler.prescheduler.PreScheduler
 import fr.eurecom.dsg.sparksqlserver.util.ServerConstants
 import org.apache.spark.SparkContext
 
@@ -27,7 +27,7 @@ class WorksharingExecutor(sc : SparkContext, queue : DAGQueue) extends Thread {
 
   private var processingDAG : ArrayBuffer[DAGContainer] = new ArrayBuffer[DAGContainer](ServerConstants.DAG_QUEUE_WINDOW_SIZE)
 
-  private val preSched : DAGSelector = new DAGSelector
+  private val preSched : PreScheduler = new PreScheduler
 
   private val detector : Detector = new Detector
 
@@ -35,7 +35,7 @@ class WorksharingExecutor(sc : SparkContext, queue : DAGQueue) extends Thread {
 
   private val rewriter : RewriteExecutor = new RewriteExecutor
 
-  private val postSched : FinalScheduler = new FinalScheduler
+  private val postSched : PostScheduler = new PostScheduler
 
   override def run(): Unit = {
 

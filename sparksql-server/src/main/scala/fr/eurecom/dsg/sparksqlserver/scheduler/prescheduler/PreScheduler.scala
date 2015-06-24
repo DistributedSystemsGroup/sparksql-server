@@ -11,7 +11,7 @@ import scala.collection.mutable.ArrayBuffer
  * Receive DAG Queue and pass to WS detector
  * FIFO strategy for the moment
  */
-class DAGSelector() {
+class PreScheduler() {
 
   def select(dagLst : ArrayBuffer[DAGContainer]) : ArrayBuffer[DAGContainer] = dagLst
 

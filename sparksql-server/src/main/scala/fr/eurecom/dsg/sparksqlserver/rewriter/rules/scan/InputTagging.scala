@@ -8,6 +8,8 @@ import fr.eurecom.dsg.sparksqlserver.rewriter.RewriteRule
  */
 class InputTagging extends RewriteRule {
 
+  private val rewriteRuleName : String = "INPUTTAGGING_SCAN"
+
   override def execute(opt : OptimizedBag): RewrittenBag = {
     null
   }

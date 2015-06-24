@@ -8,7 +8,7 @@ import scala.collection.mutable.ArrayBuffer
 /**
  * Created by hoang on 6/1/15.
  */
-class FinalScheduler {
+class PostScheduler {
 
   def schedule(sc : SparkContext, rewritten : Array[RewrittenBag]) : Unit = {
 

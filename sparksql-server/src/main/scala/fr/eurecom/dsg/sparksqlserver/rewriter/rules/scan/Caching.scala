@@ -10,6 +10,8 @@ import org.apache.spark.rdd.{ShuffledRDD, RDD}
  */
 class Caching extends RewriteRule{
 
+  private val rewriteRuleName : String = "CACHING_SCAN"
+
   def getPostScanRDD(dep : Seq[Dependency[_]], scan : RDD[_]): RDD[_] = {
     if(dep{0}.rdd.getDP{0}.rdd == scan)
       dep{0}.rdd
@@ -64,7 +66,7 @@ class Caching extends RewriteRule{
       replaceScan(lstDag{i}.getDAG(), post)
     }
     //turn it into a rewrittenBag and return it
-    new RewrittenBag(lstDag)
+    new RewrittenBag(lstDag, rewriteRuleName)
   }
 
 }
