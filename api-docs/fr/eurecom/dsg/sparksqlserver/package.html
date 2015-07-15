@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>sparksqlserver - sparksql-server documentation - fr.eurecom.dsg.sparksqlserver</title>
+          <meta name="description" content="sparksqlserver - sparksql - server documentation - fr.eurecom.dsg.sparksqlserver" />
+          <meta name="keywords" content="sparksqlserver sparksql server documentation fr.eurecom.dsg.sparksqlserver" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'fr.eurecom.dsg.sparksqlserver.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="fr">fr</a>.<a href="../../package.html" class="extype" name="fr.eurecom">eurecom</a>.<a href="../package.html" class="extype" name="fr.eurecom.dsg">dsg</a></p>
+        <h1>sparksqlserver</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">sparksqlserver</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.eurecom.dsg.sparksqlserver.WorkSharingExecutor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WorkSharingExecutorextendsThread"></a>
+      <a id="WorkSharingExecutor:WorkSharingExecutor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="WorkSharingExecutor.html"><span class="name">WorkSharingExecutor</span></a><span class="result"> extends <span class="extype" name="java.lang.Thread">Thread</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">The background thread that runs SparkSQL Server
+All the executions of SparkSQL Server will happen here</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.eurecom.dsg.sparksqlserver.SparkSQLServer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SparkSQLServer"></a>
+      <a id="SparkSQLServer:SparkSQLServer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SparkSQLServer$.html"><span class="name">SparkSQLServer</span></a><span class="result"> extends <span class="extype" name="org.apache.spark.Logging">Logging</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Main entry of SparkSQLServer
+connects to actual cluster
+launches a JarListener and a DAGListener running in threads
+launches a WorkSharingExecutor in thread
+</p>
+    </li><li name="fr.eurecom.dsg.sparksqlserver.container" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="container"></a>
+      <a id="container:container"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="container/package.html"><span class="name">container</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="fr.eurecom.dsg.sparksqlserver.costmodel" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="costmodel"></a>
+      <a id="costmodel:costmodel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="costmodel/package.html"><span class="name">costmodel</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="fr.eurecom.dsg.sparksqlserver.detector" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="detector"></a>
+      <a id="detector:detector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="detector/package.html"><span class="name">detector</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="fr.eurecom.dsg.sparksqlserver.listener" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="listener"></a>
+      <a id="listener:listener"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="listener/package.html"><span class="name">listener</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="fr.eurecom.dsg.sparksqlserver.optimizer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="optimizer"></a>
+      <a id="optimizer:optimizer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="optimizer/package.html"><span class="name">optimizer</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="fr.eurecom.dsg.sparksqlserver.rewriter" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="rewriter"></a>
+      <a id="rewriter:rewriter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="rewriter/package.html"><span class="name">rewriter</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="fr.eurecom.dsg.sparksqlserver.scheduler" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="scheduler"></a>
+      <a id="scheduler:scheduler"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="scheduler/package.html"><span class="name">scheduler</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="fr.eurecom.dsg.sparksqlserver.util" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="util"></a>
+      <a id="util:util"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="util/package.html"><span class="name">util</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../lib/template.js"></script>
+    </body>
+      </html>
