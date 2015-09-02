@@ -36,6 +36,6 @@ To bring SparkSQL in action, we need to know how to submit a Spark application t
   <application-jar> \
   [application-arguments]
 ```
-    + The value for sparksql-server argument is splitted by comma, with the order of sparksql-serve IP, sparksql-server Port, jar-server Port.
-    + The value for metadata is splitted by space, each key and value pair is splitted by colon
+- The value for sparksql-server argument is splitted by comma, with the order of sparksql-serve IP, sparksql-server Port, jar-server Port.
+- The value for metadata is splitted by space, each key and value pair is splitted by colon
 - SparkSQL Server is also a Spark Application, we just submit it as usual. The difference of SparkSQL Server to a normal Spark Application is it does not submit the applications immediately to the cluster but it waits until getting enough applications from users to do the optimizations.
