@@ -1,0 +1,176 @@
+[info] Updating {file:/Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/}sparksql-server...
+[debug] :: resolving dependencies :: default#sparksql-server_2.10;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@614f5cd7
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.0
+[debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.0
+[debug] 	found org.scala-lang#scala-library;2.10.0 in sbt-chain
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [test]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [compile-internal]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [optional]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [runtime-internal]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [test-internal]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [test]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [optional]
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#sparksql-server_2.10;1.0 [scala-tool]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0
+[debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.10.0
+[debug] 	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->master]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->master(*)]
+[info] Resolving org.scala-lang#jline;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.0 {optional=[compile(*), master(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.0
+[debug] 	local: revision in cache: org.scala-lang#jline;2.10.0
+[debug] 	found org.scala-lang#jline;2.10.0 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->compile(*)]
+[debug] == resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->master(*)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	local: revision in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->default]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->runtime]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->compile]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->master]
+[debug] == resolving dependencies default#sparksql-server_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 		tried /Users/suwax/.ivy2/local/org.scala-lang/scala-library/2.10.0/jars/scala-library.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar
+[info] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.0!scala-library.jar (34278ms)
+[debug] 		tried /Users/suwax/.ivy2/local/org.scala-lang/scala-compiler/2.10.0/jars/scala-compiler.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar
+[info] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar (75798ms)
+[debug] 		tried /Users/suwax/.ivy2/local/org.scala-lang/scala-reflect/2.10.0/jars/scala-reflect.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[info] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar (15621ms)
+[debug] 		tried /Users/suwax/.ivy2/local/org.scala-lang/jline/2.10.0/jars/jline.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.jar
+[info] downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.jar
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.jar.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.0!jline.jar (1736ms)
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
+[debug] :: resolution report :: resolve 342ms :: artifacts dl 127450ms
+[debug] 	report for default#sparksql-server_2.10;1.0 compile produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-compile.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 runtime produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-runtime.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 test produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-test.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 provided produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-provided.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 optional produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-optional.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 compile-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-compile-internal.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 runtime-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-runtime-internal.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 test-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-test-internal.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 plugin produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-plugin.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 sources produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-sources.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 docs produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-docs.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 pom produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-pom.xml
+[debug] 	report for default#sparksql-server_2.10;1.0 scala-tool produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/target/resolution-cache/reports/default-sparksql-server_2.10-scala-tool.xml
+[debug] 	resolve done (342ms resolve - 127450ms download)
+[info] Done updating.

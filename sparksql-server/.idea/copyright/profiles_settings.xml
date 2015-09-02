@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <settings default="Apache">
+    <LanguageOptions name="Scala">
+      <option name="addBlankAfter" value="false" />
+    </LanguageOptions>
+  </settings>
+</component>

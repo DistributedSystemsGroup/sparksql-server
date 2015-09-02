@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spark-assembly-1.3.2-SNAPSHOT-hadoop2.5.0-cdh5.3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../testSparkBuild/build-sparkmvn-rewrite-simple/assembly/target/scala-2.10/spark-assembly-1.3.2-SNAPSHOT-hadoop2.5.0-cdh5.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../testSparkBuild/build-sparkmvn-rewrite-simple/assembly/target/scala-2.10/spark-assembly-1.3.2-SNAPSHOT-hadoop2.5.0-cdh5.3.2.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../testSparkBuild/build-sparkmvn-rewrite-simple/core" />
+      <root url="file://$PROJECT_DIR$/../../testSparkBuild/build-sparkmvn-rewrite-simple/core/src/main/scala" />
+    </SOURCES>
+  </library>
+</component>
