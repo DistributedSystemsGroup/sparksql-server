@@ -89,7 +89,6 @@
     <module>core</module>
     <module>sql/core</module>
     <module>assembly</module>
-    <module>examples</module>
   </modules>
 
   <properties>
