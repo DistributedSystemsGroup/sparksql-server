@@ -24,6 +24,7 @@ Project is organized as follows:
 ##How to use SparkSQL Server
 To bring SparkSQL in action, we need to know how to submit a Spark application to SparkSQL Server and how to deploy the server on the cluster:
 - At client side: Users write their Spark application normally as they often do. In stead of using the default Spark Library of Apache, users need to use our Spark Library from the Github repository. We need to modify the spark-submit command to provide information about SparkSQL Server. The new submit command that users need to use is:
+```bashscript
 ./bin/spark-submit \
   --class <main-class>
   --master <master-url> \
@@ -34,6 +35,7 @@ To bring SparkSQL in action, we need to know how to submit a Spark application t
   ... # other options
   <application-jar> \
   [application-arguments]
+```
 - The value for sparksql-server argument is splitted by comma, with the order of sparksql-serve IP, sparksql-server Port, jar-server Port.
 - SparkSQL Server is also a Spark Application, we just submit it as usual. The difference of SparkSQL Server to a normal Spark Application is it does not submit the applications immediately to the cluster but it waits until getting enough applications from users to do the optimizations.
 
