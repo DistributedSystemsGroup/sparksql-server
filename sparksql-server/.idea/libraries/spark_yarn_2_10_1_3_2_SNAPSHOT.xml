@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="spark-yarn_2.10-1.3.2-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../modifiedSpark-server/yarn/target/spark-yarn_2.10-1.3.2-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

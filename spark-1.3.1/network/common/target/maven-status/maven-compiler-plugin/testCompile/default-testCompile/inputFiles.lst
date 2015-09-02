@@ -1,9 +1,0 @@
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/TransportClientFactorySuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/TransportResponseHandlerSuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/ByteArrayWritableChannel.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/RpcIntegrationSuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/TestManagedBuffer.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/ProtocolSuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/TestUtils.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/ChunkFetchIntegrationSuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/network/common/src/test/java/org/apache/spark/network/protocol/MessageWithHeaderSuite.java

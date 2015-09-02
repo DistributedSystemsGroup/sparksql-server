@@ -1,6 +1,0 @@
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/test/java/org/apache/spark/JavaAPISuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/test/java/org/apache/spark/util/collection/TestTimSort.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java

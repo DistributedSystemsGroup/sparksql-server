@@ -1,6 +1,0 @@
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/hive/src/test/java/org/apache/spark/sql/hive/JavaMetastoreDataSourcesSuite.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFListListInt.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFListString.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFStringString.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFTwoListList.java
-/home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/hive/src/test/java/org/apache/spark/sql/hive/execution/UDFIntegerToString.java
