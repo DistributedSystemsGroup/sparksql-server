@@ -1,0 +1,25 @@
+	% Chapter 1
+
+\chapter{Introduction} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 1. \emph{Introduction}} % This is for the header on each page - perhaps a shortened title
+Nowadays, large-scale data analysis has explosively grown. In the beginning of the big data era, Hadoop MapReduce \cite{hadoop} was the dominant framework which was widely used to process huge amount of data. Under several evolutions, a new framework appeared which is called Apache Spark \cite{spark}.
+
+In general, writing a MapReduce \cite{Dean2004} algorithm in Hadoop and Spark requires exceptional skills, because of the intricacies of the underlying programming model: to overcome such problems, high-level languages (in essence, similar to SQL) have emerged as an alternative method to query data. For example, Apache Pig \cite{Gates2009} \cite{pig} and Apache Hive \cite{ashish2009} \cite{hive} bring to users the ability to express their programs in SQL-like by PigLatin \cite{Olston} and HiveQL \cite{ashish2009} , which are then compiled into MapReduce jobs before their execution. Apache Spark has also brought to us its SQL-like framework called SparkSQL \cite{michaelb}, which provides users the flexibilites of using Dataframe API and SQL.\\
+
+In large data warehouses, multiple queries can be submitted by multiple users at the same time. Some files can be used at the input of many queries with different tasks. In other way, these files are "hotter" than the others because they are used more frequently, so there is high potential for sharing the cost of reading the input file and also the computations.\\
+
+In this project, we propose a system that accepts multi-query workloads and proceeds with work-sharing optimization, for the Apache Spark system. The system automatically detects and efficiently combine the sharable queries, which are combined into smaller number of jobs that will compute output for all shared queries. The system also provides a scheduling mechanism which allows multi-query workloads to be optimized and executed in an efficient way. The system design aims to provide users generalization and extensibility so users can introduce new work sharing optimizations using a simple domain specific language. We take sharing I/O at a usecase for our system to show its efficiency, generality and extensibility.\\
+
+In order to accomplish the internship, in our work, we:\\	
+\begin{itemize}
+\item Study Apache Spark internals and SparkSQL. We also document them carefully in this report.
+\item Design and implement a work sharing system which is efficient and easy to extend.
+\item Take sharing I/O at a usecase to demonstrate the efficiency of our system and its correctness.
+\item Conduct a preliminary experimental performance evaluation.
+\end{itemize}
+
+
+

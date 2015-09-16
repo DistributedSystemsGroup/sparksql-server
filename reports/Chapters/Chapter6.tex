@@ -1,0 +1,46 @@
+% Chapter Template
+
+\chapter{Contributions and Future Works} % Main chapter title
+
+\label{Chapter6} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 6. \emph{Contributions and Future Works}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Contributions}
+The work presented in the thesis report, and the contributions that we made can be summarized as followed:
+\begin{itemize}
+\item We provide an overview of Apache Spark and Apache SparkSQL, insight a Spark Job Lifetime: 
+by studying the fundamental components of Apache Spark and Apache SparkSQL, and the internal of Spark through the Spark Job Lifetime, we provide information about them and the documentation on those components, processes. Since documents about internal Apache Spark and SparkSQL are still limited, the information we provide would be helpful for many developers and researchers.
+
+\item We propose a new work sharing system. To the best of our knowledges, it is the first work sharing system on Apache Spark to deal with multiple query optimization. The advantages of our system is that it is generalized and extendable so users, developers can plug their own implementations for their  work sharing types that they want. 
+
+\item We provide the simplest form of work sharing which is sharing scan as an usecase with two techniques: caching of Spark and sharing map input of MRShare. We implement the simultaneous pipeline technique which is widely used in MapReduce but no works have been found on Apache Spark.
+
+\item We conduct a preliminary evaluation to verify that the SparkSQL Server can funtion properly and also to verify the performance of MRShare technique on Apache Spark. Though the evaluation is far from being complete, it gives us the proof about the correctness and extensibility of the SparkSQL Server, which encourages the community to contribute new sharing techniques for various sharing types.
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Future Works}
+In scope of the internship, due to the limitation of time, there are still some mixing points that we need to provide in the future.
+\begin{itemize}
+
+\item Better experiments and evaluation: due to time and resource limitations, our experimental results are not as comprehensive as they could be. We plan to run experiments that benchmark the performance in various aspects: the cluster size, the size and distribution of data, many kinds of workloads, the type of work sharing and the types of rewritten techniques.
+
+\item At client side, we need to stop the execution of the action that users call in their applications and send their DAGs to our SparkSQL Server. At server side, we integrate simultaneous pipeline technique into Spark. So, at both client side and server side need the modified Spark. This is a limitation of the project and we want to find out a solution to solve this problem.
+
+\item Propose a solution to improve the performance of sharing scan using MRShare. Some additions to the cost model would be needed since tagging cost is not negligible. In Apache Spark version 1.5, there is a big improvement on memory management. We want to port the whole project to use the latest Apache Spark to see if the MRShare technique is better or not.
+
+\item Caching is a nice feature and widely used in Apache Spark. Caching is not only useful for sharing scan but also useful for sharing computations. However, it is not always beneficial since in some cases when the memory can not hold the whole input file, the cost of reading from and writing to disk is not negligible. There is currently a work from my colleague \cite{khoa} on improving caching performance. Instead of caching only the input file, we try to cache the most common parts of the jobs.
+
+\item Scan sharing is the simplest form of work sharing. Since scan sharing is only beneficial when the job is I/O intensive. There is a recently work \cite{kay2015} claims that on Apache Spark the bottleneck is not I/O but CPU.  There are many kind of work sharing and each kind also has many techniques. Due to the time limitation, we just provide sharing scan as an usecase and use only two techniques for sharing scan. We plan to provide many work sharing kind such as: grouping set, join...
+
+\item In large data warehouses, the latency is an important metric which is closely related to the scheduler and scheduling strategies. In this internship, we just provide the simplest form of scheduling strategy which is FIFO. We plan to provide other kinds of scheduling strategies to improve the performance of our system or to fulfill the users' requirements.
+
+\item We plan to open source this project so many developers and researchers can contribute to the project.
+\end{itemize}

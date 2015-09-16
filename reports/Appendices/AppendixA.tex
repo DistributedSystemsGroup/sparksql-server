@@ -1,0 +1,31 @@
+% Appendix A
+
+\chapter{How To Use SparkSQL Server} % Main appendix title
+
+\label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\lhead{Appendix A. How to Use SparkSQL Server} % This is for the header on each page - perhaps a shortened title
+
+SparkSQL Server is an open source project so everyone can get it at the Github repository of our group \footnote{http://github.com/DistributedSystemsGroup/sparksql-server}. The repository have two main folders:
+\begin{itemize}
+\item \textbf{spark-assembly}: the modified Spark source codes, we integrate necessary classes to make our SparkSQL Server work properly. We need to build the source codes to get the assembly Spark jar file.
+\item \textbf{sparksql-server}: the source code of SparkSQL Server. We also need to build the project to get the jar file. We can modify the parameters of SparkSQL Server inside class ServerConstant.
+\end{itemize}
+
+To bring SparkSQL in action, we need to know how to submit a Spark application to SparkSQL Server and how to deploy the server on the cluster:
+\begin{itemize}
+\item \textbf{At client side} Users write their Spark application normally as they often do. In stead of using the default Spark Library of Apache, users need to use our Spark Library from the Github repository. We need to modify the spark-submit command to provide information about SparkSQL Server. The new submit command that users need to use is:\\
+\begin{lstlisting}[language=bash,caption={bash version}]
+./bin/spark-submit \
+  --class <main-class>
+  --master <master-url> \
+  --deploy-mode <deploy-mode> \
+  --conf <key>=<value> \
+  --sparksql-server <ip,sparksql-server-port,jar-server-port>
+  ... # other options
+  <application-jar> \
+  [application-arguments]
+\end{lstlisting}
+The value for sparksql-server argument is splitted by comma, with the order of sparksql-serve IP, sparksql-server Port, jar-server Port.
+\item \textbf{At server side} SparkSQL Server is also a Spark Application, we just submit it as usual. The difference of SparkSQL Server to a normal Spark Application is it does not submit the applications immediately to the cluster but it waits until getting enough applications from users to do the optimizations.
+\end{itemize}

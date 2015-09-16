@@ -1,0 +1,85 @@
+\documentclass[a4paper, 12pt]{report}
+
+%\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{mathtools}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{tikz}\usetikzlibrary{calc}
+\usepackage{hyperref,xcolor}
+\usepackage{enumerate}
+\usepackage{lipsum}
+\usepackage{framed}
+\usepackage{marginnote}
+\usepackage{pdfpages}
+\usepackage{subfigure}
+\usepackage{todonotes}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\newcommand\HRule{\rule{\textwidth}{1pt}}
+
+\reversemarginpar
+
+\begin{document}
+%==============================================================================
+% Parameters
+\graphicspath{ {img/} {exp/} }
+
+%==============================================================================
+% Title page
+\begin{titlepage}
+	
+	\begin{tikzpicture}[remember picture, overlay]
+	\draw[line width = 1pt] ($(current page.north west) + (0.5in,-0.5in)$) rectangle ($(current page.south east) + (-0.5in,0.5in)$);
+	\end{tikzpicture}
+	
+	\begin{center}
+		
+		\includegraphics[width=0.4\textwidth]{Logo.eps}~\\[1cm]
+%		\includegraphics{Logo.eps}
+		% Upper part of the page
+		\textsc{\LARGE Master Thesis}\\[0.5cm]
+		\Large Quang-Nhat HOANG-XUAN\\
+		\Large September 2015\\[1cm]
+		
+		% Title
+		\HRule \\[0.4cm]
+		\textsc{\Large \bfseries A Work Sharing System on Apache Spark}\\[0.4cm]		
+		\HRule \\[1cm]
+		
+%		\begin{flushleft}
+%			\large
+%			\emph{Company:} University of Illinois at Urbana-Champaign\\ 
+%			\emph{Company Supervisor:} Prof. DO N. Minh\\
+%			\emph{Academic Supervisor:} Prof. DUGELAY Jean-Luc
+%		\end{flushleft}
+		\begin{table}[H]
+		\large
+		\begin{tabular}{l r}
+			\emph{Supervisor:} & Prof. Pietro MICHIARDI\\
+			\emph{Academic Supervisor:}	& Prof. Pietro MICHIARDI\\
+														& Duy-Hung PHAN
+		\end{tabular}
+		\end{table}
+		
+		\textsc{\color{red} \textbf{The thesis is not confidential.}}
+		
+		\vfill	
+		Network and Security Department\\
+		Distributed System Group\\
+		EURECOM INSTITUTE	
+		
+	\end{center}
+	
+\end{titlepage}
+
+\end{document}
