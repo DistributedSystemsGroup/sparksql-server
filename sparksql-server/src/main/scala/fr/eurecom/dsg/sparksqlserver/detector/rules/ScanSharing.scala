@@ -19,9 +19,8 @@ package fr.eurecom.dsg.sparksqlserver.detector.rules
 
 import fr.eurecom.dsg.sparksqlserver.container.DAGContainer
 import fr.eurecom.dsg.sparksqlserver.detector.DetectionRule
-import fr.eurecom.dsg.sparksqlserver.listener.DAGQueue
 import org.apache.spark.Dependency
-import org.apache.spark.rdd.{ShuffledRDD, RDD}
+import org.apache.spark.rdd.ShuffledRDD
 
 import scala.collection.mutable.ArrayBuffer
 

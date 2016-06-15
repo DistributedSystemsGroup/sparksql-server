@@ -18,7 +18,7 @@
 package fr.eurecom.dsg.sparksqlserver
 
 import java.net._
-
+import fr.eurecom.dsg.sparksqlserver.groupingsets._
 import fr.eurecom.dsg.sparksqlserver.listener.{DAGListener, JarListenerThread, DAGQueue}
 import fr.eurecom.dsg.sparksqlserver.util.ServerConstants
 import org.apache.spark.{Logging, SparkConf, SparkContext}
@@ -30,7 +30,7 @@ import scala.language.existentials
 object SparkSQLServer extends Logging {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
-      .setMaster("local[1]")
+      .setMaster("local[2]")
       .setAppName("SparkSQLServer")
 
     //global queue, use to queue the incoming DAGs from clients
@@ -45,6 +45,18 @@ object SparkSQLServer extends Logging {
 
     //set this SparkApplication as SparkSQLServer
     sc.setAsSparkSQLServer
+
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
+    sc.createBroadcast("README.md",0)
 
     val sqlC = new org.apache.spark.sql.SQLContext(sc)
 
@@ -65,6 +77,5 @@ object SparkSQLServer extends Logging {
     val wsExe: WorksharingExecutor = new WorksharingExecutor(sc, queue)
     wsExe.start()
     logInfo("WorksharingExecutor is running...")
-  }
 }
 

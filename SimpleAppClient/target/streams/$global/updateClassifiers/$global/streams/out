@@ -1,201 +1,172 @@
-[debug] :: resolving dependencies :: default#untitled$sources_javadoc_2.10;1.0
+[debug] :: resolving dependencies :: untitled-2#untitled-2$sources_2.10;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d24e167
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@442b7d5a
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.0
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.0
 [debug] 	found org.scala-lang#scala-library;2.10.0 in sbt-chain
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [runtime]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [runtime]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [test]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [runtime]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [test]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [runtime]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [provided]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [optional]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [compile-internal]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [optional]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [provided]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [compile-internal]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [optional]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [provided]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [runtime-internal]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [runtime]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [optional]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [runtime-internal]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [runtime]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [optional]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [test-internal]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [test]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [runtime]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->master]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [optional]
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [provided]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [test-internal]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [test]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [runtime]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [runtime->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test->master]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [optional]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [provided]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [plugin]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [sources]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [docs]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [pom]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#untitled$sources_javadoc_2.10;1.0 [scala-tool]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->default(compile)]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->default(compile)]
+[debug] == resolving dependencies for untitled-2#untitled-2$sources_2.10;1.0 [scala-tool]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {scala-tool=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.10.0
 [debug] 	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {scala-tool=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.0
 [debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [scala-tool->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang#jline;2.10.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.0 {scala-tool=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.0
 [debug] 	local: revision in cache: org.scala-lang#jline;2.10.0
 [debug] 	found org.scala-lang#jline;2.10.0 in sbt-chain
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->master]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.scala-lang#jline;2.10.0 [scala-tool->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)]
 [info] Resolving org.fusesource.jansi#jansi;1.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	local: revision in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
-[debug] == resolving dependencies default#untitled$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
+[debug] == resolving dependencies untitled-2#untitled-2$sources_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /home/hoang/.ivy2/local/org.scala-lang/scala-library/2.10.0/docs/scala-library-javadoc.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!scala-library.jar
-[debug] 		tried /home/hoang/.ivy2/local/org.scala-lang/scala-library/2.10.0/srcs/scala-library-sources.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-javadoc.jar
-[info] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-javadoc.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-javadoc.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-javadoc.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.0!scala-library.jar(doc) (20243ms)
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-sources.jar
-[info] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-sources.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-sources.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-sources.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.0!scala-library.jar(src) (1288ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(doc)
-[debug] 		tried /home/hoang/.ivy2/local/org.scala-lang/jline/2.10.0/srcs/jline-sources.jar
-[debug] 		tried /home/hoang/.ivy2/local/org.scala-lang/jline/2.10.0/docs/jline-javadoc.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-sources.jar
-[info] downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-sources.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-sources.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-sources.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.0!jline.jar(src) (581ms)
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-javadoc.jar
-[info] downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-javadoc.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-javadoc.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-javadoc.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.0!jline.jar(doc) (917ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.0!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
-[debug] :: resolution report :: resolve 180ms :: artifacts dl 23183ms
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 compile produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-compile.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 runtime produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-runtime.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 test produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-test.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 provided produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-provided.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 optional produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-optional.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 compile-internal produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-compile-internal.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 runtime-internal produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-runtime-internal.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 test-internal produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-test-internal.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 plugin produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-plugin.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 sources produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-sources.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 docs produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-docs.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 pom produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-pom.xml
-[debug] 	report for default#untitled$sources_javadoc_2.10;1.0 scala-tool produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/target/resolution-cache/reports/default-untitled$sources_javadoc_2.10-scala-tool.xml
-[debug] 	resolve done (180ms resolve - 23183ms download)
+[debug] :: resolution report :: resolve 434ms :: artifacts dl 56ms
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 compile produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-compile.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 runtime produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-runtime.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 test produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-test.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 provided produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-provided.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 optional produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-optional.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 compile-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-compile-internal.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 runtime-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-runtime-internal.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 test-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-test-internal.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 plugin produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-plugin.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 sources produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-sources.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 docs produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-docs.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 pom produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-pom.xml
+[debug] 	report for untitled-2#untitled-2$sources_2.10;1.0 scala-tool produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/target/resolution-cache/reports/untitled-2-untitled-2$sources_2.10-scala-tool.xml
+[debug] 	resolve done (434ms resolve - 56ms download)

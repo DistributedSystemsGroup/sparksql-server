@@ -46,7 +46,4 @@ class OptimizedBag(listDag : Array[DAGContainer], sharingType : String, canShare
   private val sharable : Boolean = canShare
 
   def isSharable() : Boolean = sharable
-
-
-
 }

@@ -18,7 +18,7 @@
 package fr.eurecom.dsg.sparksqlserver.detector
 
 import fr.eurecom.dsg.sparksqlserver.container.{DAGContainer, AnalysedBag}
-import fr.eurecom.dsg.sparksqlserver.detector.rules.ScanSharing
+import fr.eurecom.dsg.sparksqlserver.detector.rules.{Noop, ScanSharing}
 import fr.eurecom.dsg.sparksqlserver.listener.DAGQueue
 
 import scala.collection.mutable.ArrayBuffer
@@ -38,17 +38,24 @@ class Detector() {
 
     var res : Array[AnalysedBag] = Array.empty[AnalysedBag]
 
-    val scan : DetectionRule = new ScanSharing(listDAG)
-    scan.initiate()
-    addToRuleSet(scan)
+    //val scan : DetectionRule = new ScanSharing(listDAG)
+    //scan.initiate()
+    //addToRuleSet(scan)
+
+    val noop : DetectionRule = new Noop(listDAG)
+    noop.initiate()
+    addToRuleSet(noop)
 
     //val join : DetectionRule = new JoinSharing(queue)
+    //join.initiate()
     //addToRuleSet(join)
 
     for (i <-0 to ruleSet.length - 1) {
       val tmp : ArrayBuffer[Array[DAGContainer]] = ruleSet{i}.analyse()
       if (ruleSet{i}.isInstanceOf[ScanSharing])
         res = res :+ new AnalysedBag("SCAN", tmp) //"SCAN_MRSHARE"
+      else if (ruleSet{i}.isInstanceOf[Noop])
+        res = res :+ new AnalysedBag("NOOP", tmp)
       //if (ruleSet{i}.isInstanceOf[JoinSharing])
       // res = res :+ new AnalysedBag("JOIN", tmp)
     }

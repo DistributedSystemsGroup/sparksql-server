@@ -18,8 +18,8 @@
 package fr.eurecom.dsg.sparksqlserver.optimizer
 
 import fr.eurecom.dsg.sparksqlserver.container.{OptimizedBag, DAGContainer, AnalysedBag}
-import fr.eurecom.dsg.sparksqlserver.costmodel.udcm.{ScanCachingCM, MRShareCM}
-import fr.eurecom.dsg.sparksqlserver.optimizer.optimizers.{ScanCachingOptimizer, MRShareOptimizer}
+import fr.eurecom.dsg.sparksqlserver.costmodel.udcm.{NoopCM, ScanCachingCM, MRShareCM}
+import fr.eurecom.dsg.sparksqlserver.optimizer.optimizers.{NoopOptimizer, ScanCachingOptimizer, MRShareOptimizer}
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -66,11 +66,11 @@ class OptimizationExecutor() {
   def getOptimizer(analysed : AnalysedBag, arrDag : Array[DAGContainer]) :Optimizer = {
     var optimizer : Optimizer = null
     if (analysed.getSharingType() == "SCAN")
-      //optimizer = new MRShareOptimizer(arrDag, new MRShareCM)
       optimizer = new ScanCachingOptimizer(arrDag, new ScanCachingCM)
-    else
-    if (analysed.getSharingType() == "DUMMY")
+    else if (analysed.getSharingType() == "DUMMY")
       optimizer = new ScanCachingOptimizer(arrDag, new ScanCachingCM)
+    else if (analysed.getSharingType() == "NOOP")
+      optimizer = new NoopOptimizer(arrDag, new NoopCM)
 
     optimizer
   }

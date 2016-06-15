@@ -5,7 +5,7 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="untitled-2:jar" />
+      <artifact name="simpleappclient:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -27,355 +27,31 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExportToHTMLSettings">
     <option name="printScope" value="1" />
     <option name="PRINT_LINE_NUMBERS" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/exportToHTML" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SimpleAppClient.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2013808" vertical-offset="2381" max-vertical-offset="3850">
-              <caret line="178" column="61" selection-start-line="178" selection-start-column="61" selection-end-line="178" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.022058824">
+              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding>
-                <element signature="e#1110#2280#1" expanded="true" />
-                <element signature="e#2320#3633#1" expanded="true" />
-                <element signature="e#2808#2847#0" expanded="true" />
-                <element signature="e#4617#4871#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairRDDFunctions.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/PairRDDFunctions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="12250" max-vertical-offset="28675">
-              <caret line="490" column="6" selection-start-line="490" selection-start-column="6" selection-end-line="490" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3151" max-vertical-offset="23775">
-              <caret line="171" column="43" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#832#855#0" expanded="false" />
-                <element signature="e#3758#3998#0" expanded="false" />
-                <element signature="e#4056#4460#0" expanded="false" />
-                <element signature="e#4088#4454#0" expanded="false" />
-                <element signature="e#4931#4935#0" expanded="false" />
-                <element signature="e#5003#5007#0" expanded="false" />
-                <element signature="e#6842#7075#0" expanded="false" />
-                <element signature="e#7244#7385#0" expanded="false" />
-                <element signature="e#7291#7379#0" expanded="false" />
-                <element signature="e#7837#8030#0" expanded="false" />
-                <element signature="e#8357#8452#0" expanded="false" />
-                <element signature="e#8776#8897#0" expanded="false" />
-                <element signature="e#9017#9127#0" expanded="false" />
-                <element signature="e#9052#9101#0" expanded="false" />
-                <element signature="e#9135#9255#0" expanded="false" />
-                <element signature="e#9347#9449#0" expanded="false" />
-                <element signature="e#9380#9425#0" expanded="false" />
-                <element signature="e#9457#9573#0" expanded="false" />
-                <element signature="e#9704#9746#0" expanded="false" />
-                <element signature="e#9754#9980#0" expanded="false" />
-                <element signature="e#10102#10190#0" expanded="false" />
-                <element signature="e#10196#10249#0" expanded="false" />
-                <element signature="e#10257#10496#0" expanded="false" />
-                <element signature="e#10898#10969#0" expanded="false" />
-                <element signature="e#11106#11203#0" expanded="false" />
-                <element signature="e#11449#11532#0" expanded="false" />
-                <element signature="e#11694#11823#0" expanded="false" />
-                <element signature="e#12010#12096#0" expanded="false" />
-                <element signature="e#12198#12298#0" expanded="false" />
-                <element signature="e#12674#13020#0" expanded="false" />
-                <element signature="e#13156#14244#0" expanded="false" />
-                <element signature="e#14376#15162#0" expanded="false" />
-                <element signature="e#14547#14874#0" expanded="false" />
-                <element signature="e#14633#14866#0" expanded="false" />
-                <element signature="e#15000#15149#0" expanded="false" />
-                <element signature="e#15036#15125#0" expanded="false" />
-                <element signature="e#15168#15219#0" expanded="false" />
-                <element signature="e#15227#15278#0" expanded="false" />
-                <element signature="e#15490#15588#0" expanded="false" />
-                <element signature="e#15594#15694#0" expanded="false" />
-                <element signature="e#15702#15925#0" expanded="false" />
-                <element signature="e#16163#16283#0" expanded="false" />
-                <element signature="e#16209#16277#0" expanded="false" />
-                <element signature="e#16299#16595#0" expanded="false" />
-                <element signature="e#16754#16843#0" expanded="false" />
-                <element signature="e#16863#16899#0" expanded="false" />
-                <element signature="e#16964#17000#0" expanded="false" />
-                <element signature="e#17113#17260#0" expanded="false" />
-                <element signature="e#17155#17254#0" expanded="false" />
-                <element signature="e#17343#17408#0" expanded="false" />
-                <element signature="e#17471#17513#0" expanded="false" />
-                <element signature="e#17603#17684#0" expanded="false" />
-                <element signature="e#17827#18027#0" expanded="false" />
-                <element signature="e#18088#18242#0" expanded="false" />
-                <element signature="e#18349#18415#0" expanded="false" />
-                <element signature="e#18421#18471#0" expanded="false" />
-                <element signature="e#18689#18753#0" expanded="false" />
-                <element signature="e#19020#19235#0" expanded="false" />
-                <element signature="e#19466#19751#0" expanded="false" />
-                <element signature="e#20062#20402#0" expanded="false" />
-                <element signature="e#20689#20789#0" expanded="false" />
-                <element signature="e#22538#23072#0" expanded="false" />
-                <element signature="e#23641#24896#0" expanded="false" />
-                <element signature="e#25169#25361#0" expanded="false" />
-                <element signature="e#25369#25655#0" expanded="false" />
-                <element signature="e#25936#26279#0" expanded="false" />
-                <element signature="e#26583#26984#0" expanded="false" />
-                <element signature="e#27368#27510#0" expanded="false" />
-                <element signature="e#27763#27980#0" expanded="false" />
-                <element signature="e#28194#28304#0" expanded="false" />
-                <element signature="e#28212#28280#0" expanded="false" />
-                <element signature="e#28312#28533#0" expanded="false" />
-                <element signature="e#28768#28882#0" expanded="false" />
-                <element signature="e#28786#28858#0" expanded="false" />
-                <element signature="e#28890#29123#0" expanded="false" />
-                <element signature="e#29280#29370#0" expanded="false" />
-                <element signature="e#29395#29615#0" expanded="false" />
-                <element signature="e#29782#29902#0" expanded="false" />
-                <element signature="e#29800#29871#0" expanded="false" />
-                <element signature="e#29910#30229#0" expanded="false" />
-                <element signature="e#30341#30744#0" expanded="false" />
-                <element signature="e#30395#30738#0" expanded="false" />
-                <element signature="e#30419#30679#0" expanded="false" />
-                <element signature="e#30584#30669#0" expanded="false" />
-                <element signature="e#32717#32781#0" expanded="false" />
-                <element signature="e#32913#32979#0" expanded="false" />
-                <element signature="e#33122#33199#0" expanded="false" />
-                <element signature="e#33338#33507#0" expanded="false" />
-                <element signature="e#33931#34010#0" expanded="false" />
-                <element signature="e#34651#34734#0" expanded="false" />
-                <element signature="e#34859#35604#0" expanded="false" />
-                <element signature="e#34867#34947#0" expanded="false" />
-                <element signature="e#35066#35216#0" expanded="false" />
-                <element signature="e#35610#35692#0" expanded="false" />
-                <element signature="e#35700#35817#0" expanded="false" />
-                <element signature="e#35943#36050#0" expanded="false" />
-                <element signature="e#35969#36016#0" expanded="false" />
-                <element signature="e#36022#36044#0" expanded="false" />
-                <element signature="e#36148#36340#0" expanded="false" />
-                <element signature="e#36182#36334#0" expanded="false" />
-                <element signature="e#36204#36326#0" expanded="false" />
-                <element signature="e#36573#36761#0" expanded="false" />
-                <element signature="e#36997#37104#0" expanded="false" />
-                <element signature="e#37023#37070#0" expanded="false" />
-                <element signature="e#37076#37098#0" expanded="false" />
-                <element signature="e#37243#37445#0" expanded="false" />
-                <element signature="e#37283#37327#0" expanded="false" />
-                <element signature="e#37350#37369#0" expanded="false" />
-                <element signature="e#37392#37411#0" expanded="false" />
-                <element signature="e#37417#37439#0" expanded="false" />
-                <element signature="e#37598#37921#0" expanded="false" />
-                <element signature="e#38404#38927#0" expanded="false" />
-                <element signature="e#39528#39722#0" expanded="false" />
-                <element signature="e#39968#40056#0" expanded="false" />
-                <element signature="e#40628#40916#0" expanded="false" />
-                <element signature="e#40773#40839#0" expanded="false" />
-                <element signature="e#41095#41269#0" expanded="false" />
-                <element signature="e#41440#41575#0" expanded="false" />
-                <element signature="e#41506#41556#0" expanded="false" />
-                <element signature="e#41717#42127#0" expanded="false" />
-                <element signature="e#42253#42330#0" expanded="false" />
-                <element signature="e#42552#42638#0" expanded="false" />
-                <element signature="e#42715#42860#0" expanded="false" />
-                <element signature="e#42791#42844#0" expanded="false" />
-                <element signature="e#43013#43909#0" expanded="false" />
-                <element signature="e#44240#44419#0" expanded="false" />
-                <element signature="e#44280#44322#0" expanded="false" />
-                <element signature="e#44376#44418#0" expanded="false" />
-                <element signature="e#44441#44934#0" expanded="false" />
-                <element signature="e#46054#46741#0" expanded="false" />
-                <element signature="e#46858#46965#0" expanded="false" />
-                <element signature="e#46906#46959#0" expanded="false" />
-                <element signature="e#46973#47196#0" expanded="false" />
-                <element signature="e#47250#47286#0" expanded="false" />
-                <element signature="e#47446#48573#0" expanded="false" />
-                <element signature="e#47454#47538#0" expanded="false" />
-                <element signature="e#47680#48265#0" expanded="false" />
-                <element signature="e#47951#48005#0" expanded="false" />
-                <element signature="e#48011#48257#0" expanded="false" />
-                <element signature="e#48598#48650#0" expanded="false" />
-                <element signature="e#48670#48786#0" expanded="false" />
-                <element signature="e#49383#49921#0" expanded="false" />
-                <element signature="e#50009#50034#0" expanded="false" />
-                <element signature="e#50040#50550#0" expanded="false" />
-                <element signature="e#50076#50339#0" expanded="false" />
-                <element signature="e#50380#50409#0" expanded="false" />
-                <element signature="e#50415#50544#0" expanded="false" />
-                <element signature="e#50440#50516#0" expanded="false" />
-                <element signature="e#51190#51276#0" expanded="false" />
-                <element signature="e#51318#51369#0" expanded="false" />
-                <element signature="e#52124#52261#0" expanded="false" />
-                <element signature="e#52177#52255#0" expanded="false" />
-                <element signature="e#52412#52509#0" expanded="false" />
-                <element signature="e#52787#52924#0" expanded="false" />
-                <element signature="e#52840#52918#0" expanded="false" />
-                <element signature="e#53082#53151#0" expanded="false" />
-                <element signature="e#53371#53445#0" expanded="false" />
-                <element signature="e#53723#54143#0" expanded="false" />
-                <element signature="e#54204#54303#0" expanded="false" />
-                <element signature="e#54337#54446#0" expanded="false" />
-                <element signature="e#55181#55185#0" expanded="false" />
-                <element signature="e#55896#56007#0" expanded="false" />
-                <element signature="e#56146#56257#0" expanded="false" />
-                <element signature="e#56541#56807#0" expanded="false" />
-                <element signature="e#56875#57068#0" expanded="false" />
-                <element signature="e#56945#56996#0" expanded="false" />
-                <element signature="e#57002#57062#0" expanded="false" />
-                <element signature="e#57076#57264#0" expanded="false" />
-                <element signature="e#57457#57797#0" expanded="false" />
-                <element signature="e#58300#58537#0" expanded="false" />
-                <element signature="e#58397#58536#0" expanded="false" />
-                <element signature="e#58752#59379#0" expanded="false" />
-                <element signature="e#59059#59147#0" expanded="false" />
-                <element signature="e#59763#59884#0" expanded="false" />
-                <element signature="e#60399#60532#0" expanded="false" />
-                <element signature="e#60782#60844#0" expanded="false" />
-                <element signature="e#60850#60928#0" expanded="false" />
-                <element signature="e#62615#62704#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLContext.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8500" max-vertical-offset="14175">
-              <caret line="319" column="17" selection-start-line="319" selection-start-column="17" selection-end-line="319" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#832#862#0" expanded="false" />
-                <element signature="e#2962#2966#0" expanded="false" />
-                <element signature="e#3122#3126#0" expanded="false" />
-                <element signature="e#4172#4400#0" expanded="false" />
-                <element signature="e#4346#4394#0" expanded="false" />
-                <element signature="e#4609#4692#0" expanded="false" />
-                <element signature="e#5030#5125#0" expanded="false" />
-                <element signature="e#5202#5401#0" expanded="false" />
-                <element signature="e#5506#5616#0" expanded="false" />
-                <element signature="e#5749#6561#0" expanded="false" />
-                <element signature="e#6920#6924#0" expanded="false" />
-                <element signature="e#7095#7099#0" expanded="false" />
-                <element signature="e#7229#7233#0" expanded="false" />
-                <element signature="e#7697#10192#0" expanded="false" />
-                <element signature="e#7830#7924#1" expanded="false" />
-                <element signature="e#8975#9130#0" expanded="false" />
-                <element signature="e#9060#9122#0" expanded="false" />
-                <element signature="e#9446#9602#0" expanded="false" />
-                <element signature="e#9531#9594#0" expanded="false" />
-                <element signature="e#9926#10084#0" expanded="false" />
-                <element signature="e#10011#10076#0" expanded="false" />
-                <element signature="e#10196#10311#0" expanded="false" />
-                <element signature="e#10692#10807#0" expanded="false" />
-                <element signature="e#11135#11260#0" expanded="false" />
-                <element signature="e#11392#12505#0" expanded="false" />
-                <element signature="e#12664#12799#0" expanded="false" />
-                <element signature="e#12909#12988#0" expanded="false" />
-                <element signature="e#13104#13192#0" expanded="false" />
-                <element signature="e#13198#13218#0" expanded="false" />
-                <element signature="e#13333#13655#0" expanded="false" />
-                <element signature="e#13798#14132#0" expanded="false" />
-                <element signature="e#14279#14520#0" expanded="false" />
-                <element signature="e#14709#15310#0" expanded="false" />
-                <element signature="e#14861#14938#0" expanded="false" />
-                <element signature="e#15076#15304#0" expanded="false" />
-                <element signature="e#15107#15290#0" expanded="false" />
-                <element signature="e#15152#15267#0" expanded="false" />
-                <element signature="e#15378#15619#0" expanded="false" />
-                <element signature="e#15742#16834#0" expanded="false" />
-                <element signature="e#17157#17375#0" expanded="false" />
-                <element signature="e#17532#17750#0" expanded="false" />
-                <element signature="e#17911#18095#0" expanded="false" />
-                <element signature="e#18196#18224#0" expanded="false" />
-                <element signature="e#18264#18351#0" expanded="false" />
-                <element signature="e#18357#18487#0" expanded="false" />
-                <element signature="e#18374#18481#0" expanded="false" />
-                <element signature="e#18404#18480#0" expanded="false" />
-                <element signature="e#19894#20104#0" expanded="false" />
-                <element signature="e#20314#20427#0" expanded="false" />
-                <element signature="e#20352#20426#0" expanded="false" />
-                <element signature="e#20596#20810#0" expanded="false" />
-                <element signature="e#20936#21138#0" expanded="false" />
-                <element signature="e#21355#21437#0" expanded="false" />
-                <element signature="e#21606#21811#0" expanded="false" />
-                <element signature="e#21948#22142#0" expanded="false" />
-                <element signature="e#22289#22436#0" expanded="false" />
-                <element signature="e#22554#22734#0" expanded="false" />
-                <element signature="e#22872#23053#0" expanded="false" />
-                <element signature="e#23272#23507#0" expanded="false" />
-                <element signature="e#23692#23923#0" expanded="false" />
-                <element signature="e#24189#24421#0" expanded="false" />
-                <element signature="e#24628#24806#0" expanded="false" />
-                <element signature="e#25003#25205#0" expanded="false" />
-                <element signature="e#25422#25646#0" expanded="false" />
-                <element signature="e#25824#26004#0" expanded="false" />
-                <element signature="e#26060#26271#0" expanded="false" />
-                <element signature="e#26522#26755#0" expanded="false" />
-                <element signature="e#26959#27147#0" expanded="false" />
-                <element signature="e#27203#27375#0" expanded="false" />
-                <element signature="e#27510#28229#0" expanded="false" />
-                <element signature="e#28602#28927#0" expanded="false" />
-                <element signature="e#29083#29149#0" expanded="false" />
-                <element signature="e#29372#29542#0" expanded="false" />
-                <element signature="e#29622#29626#0" expanded="false" />
-                <element signature="e#29696#29945#0" expanded="false" />
-                <element signature="e#29986#29990#0" expanded="false" />
-                <element signature="e#30097#30299#0" expanded="false" />
-                <element signature="e#30373#30421#0" expanded="false" />
-                <element signature="e#30427#30495#0" expanded="false" />
-                <element signature="e#30698#30959#0" expanded="false" />
-                <element signature="e#31042#31301#0" expanded="false" />
-                <element signature="e#31418#31522#0" expanded="false" />
-                <element signature="e#31593#31639#0" expanded="false" />
-                <element signature="e#31655#31757#0" expanded="false" />
-                <element signature="e#31862#31908#0" expanded="false" />
-                <element signature="e#31982#34944#0" expanded="false" />
-                <element signature="e#32554#33370#0" expanded="false" />
-                <element signature="e#34375#34772#0" expanded="false" />
-                <element signature="e#34385#34466#0" expanded="false" />
-                <element signature="e#34778#34934#0" expanded="false" />
-                <element signature="e#35108#35208#0" expanded="false" />
-                <element signature="e#35293#35376#0" expanded="false" />
-                <element signature="e#35664#37404#1" expanded="false" />
-                <element signature="e#35692#35696#0" expanded="false" />
-                <element signature="e#35831#35904#0" expanded="false" />
-                <element signature="e#36056#36140#0" expanded="false" />
-                <element signature="e#36145#36221#0" expanded="false" />
-                <element signature="e#36607#36681#0" expanded="false" />
-                <element signature="e#36742#36831#0" expanded="false" />
-                <element signature="e#36988#37383#0" expanded="false" />
-                <element signature="e#37408#37614#0" expanded="false" />
-                <element signature="e#37733#37829#0" expanded="false" />
-                <element signature="e#38063#38153#0" expanded="false" />
-                <element signature="e#38324#38718#0" expanded="false" />
-                <element signature="e#38803#38943#0" expanded="false" />
-                <element signature="e#38818#38937#0" expanded="false" />
-                <element signature="e#38849#38936#0" expanded="false" />
-                <element signature="e#38949#38966#0" expanded="false" />
-                <element signature="e#39012#39073#0" expanded="false" />
-                <element signature="e#39149#39220#0" expanded="false" />
-                <element signature="e#39454#39541#0" expanded="false" />
-                <element signature="e#39756#41508#0" expanded="false" />
-                <element signature="e#39803#41437#0" expanded="false" />
+                <element signature="e#461#534#0" expanded="false" />
+                <element signature="e#3544#4290#0" expanded="false" />
+                <element signature="e#3960#4048#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -385,7 +61,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/SparkContext.scala" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -395,15 +70,23 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/ShuffledRDD.scala" />
         <option value="$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/RDD.scala" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="25" />
-    <option name="width" value="1682" />
-    <option name="height" value="1026" />
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -416,7 +99,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -426,8 +109,80 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleAppClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleAppClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleAppClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -439,18 +194,25 @@
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../modifiedSpark-server/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spark16/spark/assembly/target/scala-2.10/spark-assembly-1.6.2-SNAPSHOT-hadoop2.5.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32229185" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="RDD.scala&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/RDD.scala&#10;DataFrame&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala&#10;MapPartitionRDD&#9;null&#9;null&#10;RDD&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/RDD.scala&#10;Data&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/DataFrameHolder.scala&#10;SQLConte&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;sqlCon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;DataF&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala&#10;dagScheduler&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala&#10;TaskSchedulerImpl&#9;null&#9;null&#10;Executor&#9;null&#9;null&#10;DAGScheduler&#9;null&#9;null&#10;SparkContext&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/SparkContext.scala&#10;Serializer&#9;null&#9;null&#10;serializer\&#9;null&#9;null&#10;constantfolding&#9;null&#9;null&#10;ConstantFolding&#9;null&#9;null&#10;treenode&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala&#10;LogicalPlan&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala&#10;sqlparser&#9;null&#9;null&#10;multi&#9;null&#9;null&#10;merge&#9;null&#9;null&#10;Logical&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala&#10;basic&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/basicOperators.scala&#10;sqlcon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;simple&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;broad&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/joins/BroadcastHashJoin.scala&#10;TreeNode&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala&#10;simpleapp&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;Spark&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/SparkPlan.scala&#10;Analyzer&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala&#10;C  Model &#9;null&#9;null&#10;Join &#9;null&#9;null&#10;Join&#9;null&#9;null&#10;Tree&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala&#10;SQLC&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;SparkContex&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/SparkContext.scala&#10;SimpleApp&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;SQLCon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;SparkCon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/SparkContext.scala&#10;Simple&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;dataframe&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala&#10;SparkPlan&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/SparkPlan.scala&#10;analyzer&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala&#10;CacheManager&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/CacheManager.scala&#10;Opti&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala&#10;Optimizer&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala&#10;Row&#9;null&#9;null&#10;cacheManager&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/CacheManager.scala&#10;sparkconf&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="DAGSu&#9;FILE&#9;file:///Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/modified-Spark/core/src/main/scala/org/apache/spark/sqlserver/submitter/DAGSubmitter.scala&#10;DagSche&#9;null&#9;null&#10;SparkContext&#9;null&#9;null&#10;RDD.scala&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/RDD.scala&#10;DataFrame&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala&#10;MapPartitionRDD&#9;null&#9;null&#10;RDD&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/RDD.scala&#10;Data&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/DataFrameHolder.scala&#10;SQLConte&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;sqlCon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;DataF&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala&#10;dagScheduler&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala&#10;TaskSchedulerImpl&#9;null&#9;null&#10;Executor&#9;null&#9;null&#10;DAGScheduler&#9;null&#9;null&#10;Serializer&#9;null&#9;null&#10;serializer\&#9;null&#9;null&#10;constantfolding&#9;null&#9;null&#10;ConstantFolding&#9;null&#9;null&#10;treenode&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala&#10;LogicalPlan&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala&#10;sqlparser&#9;null&#9;null&#10;multi&#9;null&#9;null&#10;merge&#9;null&#9;null&#10;Logical&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala&#10;basic&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/basicOperators.scala&#10;sqlcon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;simple&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;broad&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/joins/BroadcastHashJoin.scala&#10;TreeNode&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala&#10;simpleapp&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;Spark&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/SparkPlan.scala&#10;Analyzer&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala&#10;C  Model &#9;null&#9;null&#10;Join &#9;null&#9;null&#10;Join&#9;null&#9;null&#10;Tree&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala&#10;SQLC&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;SparkContex&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/SparkContext.scala&#10;SimpleApp&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;SQLCon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala&#10;SparkCon&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/SparkContext.scala&#10;Simple&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/untitled/src/main/scala/SimpleApp.scala&#10;dataframe&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala&#10;SparkPlan&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/execution/SparkPlan.scala&#10;analyzer&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala&#10;CacheManager&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/CacheManager.scala&#10;Opti&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala&#10;Optimizer&#9;FILE&#9;file:///home/hoang/DATA/WORKSPACE-INTELLIJ/spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala&#10;Row&#9;null&#9;null" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.SimpleAppClient">
     <configuration default="false" name="SimpleAppClient" type="Application" factoryName="Application" temporary="true">
@@ -460,11 +222,11 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled-2" />
+      <module name="simpleappclient" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -476,10 +238,56 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
@@ -487,6 +295,22 @@
       <setting name="vmparams4" value="" />
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="consoleArgs" value="-usejavacp" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
@@ -505,170 +329,18 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
       <module name="" />
@@ -694,6 +366,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1457451311116" />
     <option name="tasksExpandState">
       <map>
         <entry key="" value="true" />
@@ -711,21 +384,16 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="untitled-2" />
+                <option name="name" value="simpleappclient" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="untitled-2-build" />
+                <option name="name" value="simpleappclient-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="1433368635337" />
       </map>
     </option>
   </component>
@@ -743,36 +411,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1682" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="23" width="1276" height="777" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2869353" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13510521" sideWeight="0.50054526" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29914072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48054147" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34551495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4140625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28185746" sideWeight="0.49945474" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20846395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13510521" sideWeight="0.50054526" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2869353" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6183386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28107345" sideWeight="0.49945474" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48163843" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34551495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -785,11 +453,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,23 +517,11 @@
           <properties />
           <option name="timeStamp" value="351" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="366" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="370" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="371" />
+      <option name="time" value="374" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -885,791 +536,348 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2279" max-vertical-offset="4700">
-          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/basicOperators.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="501" max-vertical-offset="4450">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3650">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="5950">
-          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/reflect/generics/tree/BaseType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25862068" vertical-offset="0" max-vertical-offset="580">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../spark-1.3.0-mvn/assembly/target/scala-2.10/spark-assembly-1.3.0-hadoop1.0.4.jar!/org/json4s/Serializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04612546" vertical-offset="0" max-vertical-offset="542">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../spark-1.3.0-mvn/assembly/target/scala-2.10/spark-assembly-1.3.0-hadoop1.0.4.jar!/akka/serialization/Serializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04612546" vertical-offset="0" max-vertical-offset="542">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/serializer/SerializationDebugger.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2865297" vertical-offset="624" max-vertical-offset="1500">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33256084" vertical-offset="3463" max-vertical-offset="5625">
-          <caret line="425" column="23" selection-start-line="425" selection-start-column="23" selection-end-line="425" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/serializer/Serializer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1825">
-          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/serializer/JavaSerializer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1600">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/serializer/KryoSerializer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1625">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/Task.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="3325">
-          <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6675" max-vertical-offset="14225">
-          <caret line="267" column="16" selection-start-line="267" selection-start-column="8" selection-end-line="267" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/ShuffleMapTask.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.12004802" vertical-offset="600" max-vertical-offset="1450">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/Stage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6254502" vertical-offset="254" max-vertical-offset="1100">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/ResultTask.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.819928" vertical-offset="442" max-vertical-offset="1275">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <element signature="e#1939#2705#0" expanded="false" />
-            <element signature="e#2325#2411#0" expanded="false" />
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/executor/Executor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.332533" vertical-offset="3398" max-vertical-offset="5475">
-          <caret line="202" column="27" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
-          <folding>
-            <element signature="e#6674#7039#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../spark-1.3.0-mvn/assembly/target/scala-2.10/spark-assembly-1.3.0-hadoop1.0.4.jar!/scala/Option.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1200">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="11637" max-vertical-offset="18400">
-          <caret line="836" column="70" selection-start-line="836" selection-start-column="70" selection-end-line="836" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.738657" vertical-offset="14793" max-vertical-offset="25850">
-          <caret line="1047" column="0" selection-start-line="1047" selection-start-column="0" selection-end-line="1047" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../spark-mvn-built/assembly/target/scala-2.10/spark-assembly-1.2.2-SNAPSHOT-hadoop2.3.0.jar!/org/apache/spark/serializer/KryoSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="350">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../spark-1.3.0-mvn/assembly/target/scala-2.10/spark-assembly-1.3.0-hadoop1.0.4.jar!/org/apache/spark/SparkEnv.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.091240875" vertical-offset="0" max-vertical-offset="548">
-          <caret line="2" column="156" selection-start-line="2" selection-start-column="156" selection-end-line="2" selection-end-column="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../WORKSPACE/spark-build-sbt-server-2/assembly/target/scala-2.10/spark-assembly-1.2.2-SNAPSHOT-hadoop1.0.4.jar!/org/apache/spark/scheduler/ResultTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07936508" vertical-offset="0" max-vertical-offset="630">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../spark-1.3.0-mvn/assembly/target/scala-2.10/spark-assembly-1.3.0-hadoop1.0.4.jar!/org/apache/spark/sql/DataFrameHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22810219" vertical-offset="0" max-vertical-offset="548">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../spark-1.3.0-mvn/assembly/target/scala-2.10/spark-assembly-1.3.0-hadoop1.0.4.jar!/org/apache/spark/sql/DataFrame.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33214286" vertical-offset="1989" max-vertical-offset="3275">
-          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Catalog.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1850">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/DataFrameHolder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/util/zip/ZipOutputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="453" max-vertical-offset="1775">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/util/jar/JarOutputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1000">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="275">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9607" max-vertical-offset="19200">
-          <caret line="636" column="41" selection-start-line="636" selection-start-column="38" selection-end-line="636" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#817#847#0" expanded="false" />
-            <element signature="e#2045#2172#1" expanded="false" />
-            <element signature="e#4495#4705#0" expanded="false" />
-            <element signature="e#4779#5013#0" expanded="false" />
-            <element signature="e#4792#5012#0" expanded="false" />
-            <element signature="e#4895#4997#0" expanded="false" />
-            <element signature="e#5078#5565#0" expanded="false" />
-            <element signature="e#5569#5698#0" expanded="false" />
-            <element signature="e#5994#6134#0" expanded="false" />
-            <element signature="e#6029#6128#0" expanded="false" />
-            <element signature="e#6264#6356#0" expanded="false" />
-            <element signature="e#6364#6445#0" expanded="false" />
-            <element signature="e#6731#6925#0" expanded="false" />
-            <element signature="e#6760#6906#0" expanded="false" />
-            <element signature="e#7032#7150#0" expanded="false" />
-            <element signature="e#7076#7144#0" expanded="false" />
-            <element signature="e#7186#7320#0" expanded="false" />
-            <element signature="e#7222#7300#0" expanded="false" />
-            <element signature="e#7488#7580#0" expanded="false" />
-            <element signature="e#7969#8422#0" expanded="false" />
-            <element signature="e#8507#8723#0" expanded="false" />
-            <element signature="e#8779#8846#0" expanded="false" />
-            <element signature="e#9014#9105#0" expanded="false" />
-            <element signature="e#9164#9220#0" expanded="false" />
-            <element signature="e#9465#9469#0" expanded="false" />
-            <element signature="e#9502#9612#0" expanded="false" />
-            <element signature="e#9647#9651#0" expanded="false" />
-            <element signature="e#9674#9732#0" expanded="false" />
-            <element signature="e#9782#9824#0" expanded="false" />
-            <element signature="e#9950#9954#0" expanded="false" />
-            <element signature="e#10647#10651#0" expanded="false" />
-            <element signature="e#10795#10799#0" expanded="false" />
-            <element signature="e#10814#11050#0" expanded="false" />
-            <element signature="e#11167#11436#0" expanded="false" />
-            <element signature="e#11588#12218#0" expanded="false" />
-            <element signature="e#12390#12649#0" expanded="false" />
-            <element signature="e#12794#12956#0" expanded="false" />
-            <element signature="e#13081#13243#0" expanded="false" />
-            <element signature="e#13096#13237#1" expanded="false" />
-            <element signature="e#13958#14061#0" expanded="false" />
-            <element signature="e#14099#14260#0" expanded="false" />
-            <element signature="e#14565#14684#0" expanded="false" />
-            <element signature="e#14792#14920#0" expanded="false" />
-            <element signature="e#15426#15641#0" expanded="false" />
-            <element signature="e#15728#15811#0" expanded="false" />
-            <element signature="e#15739#15806#0" expanded="false" />
-            <element signature="e#16134#16264#0" expanded="false" />
-            <element signature="e#17365#18036#0" expanded="false" />
-            <element signature="e#18246#18741#0" expanded="false" />
-            <element signature="e#21057#21301#0" expanded="false" />
-            <element signature="e#21450#21679#0" expanded="false" />
-            <element signature="e#21820#22594#0" expanded="false" />
-            <element signature="e#23088#23502#0" expanded="false" />
-            <element signature="e#24327#24410#0" expanded="false" />
-            <element signature="e#24567#24694#0" expanded="false" />
-            <element signature="e#25469#25577#0" expanded="false" />
-            <element signature="e#25804#25808#0" expanded="false" />
-            <element signature="e#25981#25985#0" expanded="false" />
-            <element signature="e#26710#26813#0" expanded="false" />
-            <element signature="e#26906#26984#0" expanded="false" />
-            <element signature="e#27175#27202#0" expanded="false" />
-            <element signature="e#27381#27408#0" expanded="false" />
-            <element signature="e#27548#27575#0" expanded="false" />
-            <element signature="e#27980#28078#0" expanded="false" />
-            <element signature="e#28622#28834#0" expanded="false" />
-            <element signature="e#28879#28883#0" expanded="false" />
-            <element signature="e#28952#29214#0" expanded="false" />
-            <element signature="e#29254#29258#0" expanded="false" />
-            <element signature="e#29312#29407#0" expanded="false" />
-            <element signature="e#29413#29487#0" expanded="false" />
-            <element signature="e#29495#30075#0" expanded="false" />
-            <element signature="e#30130#30134#0" expanded="false" />
-            <element signature="e#30197#30770#0" expanded="false" />
-            <element signature="e#30841#30845#0" expanded="false" />
-            <element signature="e#30933#31129#0" expanded="false" />
-            <element signature="e#31135#31258#0" expanded="false" />
-            <element signature="e#31266#31844#0" expanded="false" />
-            <element signature="e#31915#31919#0" expanded="false" />
-            <element signature="e#31990#32545#0" expanded="false" />
-            <element signature="e#32632#32636#0" expanded="false" />
-            <element signature="e#32716#33271#0" expanded="false" />
-            <element signature="e#33423#33427#0" expanded="false" />
-            <element signature="e#33495#34054#0" expanded="false" />
-            <element signature="e#34196#34200#0" expanded="false" />
-            <element signature="e#34249#34364#0" expanded="false" />
-            <element signature="e#34411#34653#0" expanded="false" />
-            <element signature="e#34696#34700#0" expanded="false" />
-            <element signature="e#34751#34975#0" expanded="false" />
-            <element signature="e#35034#35038#0" expanded="false" />
-            <element signature="e#35150#35350#0" expanded="false" />
-            <element signature="e#35409#35413#0" expanded="false" />
-            <element signature="e#35487#35671#0" expanded="false" />
-            <element signature="e#35746#35750#0" expanded="false" />
-            <element signature="e#35806#35991#0" expanded="false" />
-            <element signature="e#36111#36115#0" expanded="false" />
-            <element signature="e#36165#36371#0" expanded="false" />
-            <element signature="e#36481#36485#0" expanded="false" />
-            <element signature="e#36561#36712#0" expanded="false" />
-            <element signature="e#36786#36790#0" expanded="false" />
-            <element signature="e#36821#36915#0" expanded="false" />
-            <element signature="e#36837#36914#0" expanded="false" />
-            <element signature="e#37146#37150#0" expanded="false" />
-            <element signature="e#37197#37294#0" expanded="false" />
-            <element signature="e#37380#37969#0" expanded="false" />
-            <element signature="e#37620#37963#0" expanded="false" />
-            <element signature="e#37846#37886#0" expanded="false" />
-            <element signature="e#37892#37929#0" expanded="false" />
-            <element signature="e#38160#38505#0" expanded="false" />
-            <element signature="e#38581#38585#0" expanded="false" />
-            <element signature="e#38673#38782#0" expanded="false" />
-            <element signature="e#38955#38981#0" expanded="false" />
-            <element signature="e#39038#39584#0" expanded="false" />
-            <element signature="e#39655#39659#0" expanded="false" />
-            <element signature="e#39683#39893#0" expanded="false" />
-            <element signature="e#39857#39887#0" expanded="false" />
-            <element signature="e#40129#40178#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../WORKSPACE/spark-build-sbt-server-2/assembly/target/scala-2.10/spark-assembly-1.2.2-SNAPSHOT-hadoop1.0.4.jar!/org/apache/spark/rdd/RDD.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32329085" vertical-offset="346" max-vertical-offset="3450">
-          <caret line="25" column="68" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42482916" vertical-offset="1527" max-vertical-offset="23000">
-          <caret line="125" column="11" selection-start-line="125" selection-start-column="2" selection-end-line="125" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/ShuffledRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1372" max-vertical-offset="2250">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9816754" vertical-offset="450" max-vertical-offset="1350">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../modifiedSpark-server/assembly/target/scala-2.10/spark-assembly-1.3.2-SNAPSHOT-hadoop2.4.0.jar!/org/apache/spark/rdd/RDD.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.36" vertical-offset="2941" max-vertical-offset="3525">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../modifiedSpark-server/assembly/target/scala-2.10/spark-assembly-1.3.2-SNAPSHOT-hadoop2.4.0.jar!/org/apache/spark/sql/SQLContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3424821" vertical-offset="188" max-vertical-offset="3675">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.3.0-mvn/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23174971" vertical-offset="3850" max-vertical-offset="15200">
-          <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="254" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/HadoopRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08342603" vertical-offset="75" max-vertical-offset="1600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/BlockRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="899">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/CoalescedRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2275">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/MapPartitionsRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16685206" vertical-offset="0" max-vertical-offset="899">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/DataFrameHolder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41713014" vertical-offset="0" max-vertical-offset="899">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24450" max-vertical-offset="33325">
-          <caret line="978" column="44" selection-start-line="978" selection-start-column="40" selection-end-line="978" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar!/scala/reflect/package.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24067388" vertical-offset="0" max-vertical-offset="831">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/sql/core/src/main/scala/org/apache/spark/sql/SQLContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4730" max-vertical-offset="15275">
-          <caret line="319" column="17" selection-start-line="319" selection-start-column="17" selection-end-line="319" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#832#862#0" expanded="false" />
-            <element signature="e#2962#2966#0" expanded="false" />
-            <element signature="e#3122#3126#0" expanded="false" />
-            <element signature="e#4172#4400#0" expanded="false" />
-            <element signature="e#4346#4394#0" expanded="false" />
-            <element signature="e#4609#4692#0" expanded="false" />
-            <element signature="e#5030#5125#0" expanded="false" />
-            <element signature="e#5202#5401#0" expanded="false" />
-            <element signature="e#5506#5616#0" expanded="false" />
-            <element signature="e#5749#6561#0" expanded="false" />
-            <element signature="e#6920#6924#0" expanded="false" />
-            <element signature="e#7095#7099#0" expanded="false" />
-            <element signature="e#7229#7233#0" expanded="false" />
-            <element signature="e#7697#10192#0" expanded="false" />
-            <element signature="e#7830#7924#1" expanded="false" />
-            <element signature="e#8975#9130#0" expanded="false" />
-            <element signature="e#9060#9122#0" expanded="false" />
-            <element signature="e#9446#9602#0" expanded="false" />
-            <element signature="e#9531#9594#0" expanded="false" />
-            <element signature="e#9926#10084#0" expanded="false" />
-            <element signature="e#10011#10076#0" expanded="false" />
-            <element signature="e#10196#10311#0" expanded="false" />
-            <element signature="e#10692#10807#0" expanded="false" />
-            <element signature="e#11135#11260#0" expanded="false" />
-            <element signature="e#11392#12505#0" expanded="false" />
-            <element signature="e#12664#12799#0" expanded="false" />
-            <element signature="e#12909#12988#0" expanded="false" />
-            <element signature="e#13104#13192#0" expanded="false" />
-            <element signature="e#13198#13218#0" expanded="false" />
-            <element signature="e#13333#13655#0" expanded="false" />
-            <element signature="e#13798#14132#0" expanded="false" />
-            <element signature="e#14279#14520#0" expanded="false" />
-            <element signature="e#14709#15310#0" expanded="false" />
-            <element signature="e#14861#14938#0" expanded="false" />
-            <element signature="e#15076#15304#0" expanded="false" />
-            <element signature="e#15107#15290#0" expanded="false" />
-            <element signature="e#15152#15267#0" expanded="false" />
-            <element signature="e#15378#15619#0" expanded="false" />
-            <element signature="e#15742#16834#0" expanded="false" />
-            <element signature="e#17157#17375#0" expanded="false" />
-            <element signature="e#17532#17750#0" expanded="false" />
-            <element signature="e#17911#18095#0" expanded="false" />
-            <element signature="e#18196#18224#0" expanded="false" />
-            <element signature="e#18264#18351#0" expanded="false" />
-            <element signature="e#18357#18487#0" expanded="false" />
-            <element signature="e#18374#18481#0" expanded="false" />
-            <element signature="e#18404#18480#0" expanded="false" />
-            <element signature="e#19894#20104#0" expanded="false" />
-            <element signature="e#20314#20427#0" expanded="false" />
-            <element signature="e#20352#20426#0" expanded="false" />
-            <element signature="e#20596#20810#0" expanded="false" />
-            <element signature="e#20936#21138#0" expanded="false" />
-            <element signature="e#21355#21437#0" expanded="false" />
-            <element signature="e#21606#21811#0" expanded="false" />
-            <element signature="e#21948#22142#0" expanded="false" />
-            <element signature="e#22289#22436#0" expanded="false" />
-            <element signature="e#22554#22734#0" expanded="false" />
-            <element signature="e#22872#23053#0" expanded="false" />
-            <element signature="e#23272#23507#0" expanded="false" />
-            <element signature="e#23692#23923#0" expanded="false" />
-            <element signature="e#24189#24421#0" expanded="false" />
-            <element signature="e#24628#24806#0" expanded="false" />
-            <element signature="e#25003#25205#0" expanded="false" />
-            <element signature="e#25422#25646#0" expanded="false" />
-            <element signature="e#25824#26004#0" expanded="false" />
-            <element signature="e#26060#26271#0" expanded="false" />
-            <element signature="e#26522#26755#0" expanded="false" />
-            <element signature="e#26959#27147#0" expanded="false" />
-            <element signature="e#27203#27375#0" expanded="false" />
-            <element signature="e#27510#28229#0" expanded="false" />
-            <element signature="e#28602#28927#0" expanded="false" />
-            <element signature="e#29083#29149#0" expanded="false" />
-            <element signature="e#29372#29542#0" expanded="false" />
-            <element signature="e#29622#29626#0" expanded="false" />
-            <element signature="e#29696#29945#0" expanded="false" />
-            <element signature="e#29986#29990#0" expanded="false" />
-            <element signature="e#30097#30299#0" expanded="false" />
-            <element signature="e#30373#30421#0" expanded="false" />
-            <element signature="e#30427#30495#0" expanded="false" />
-            <element signature="e#30698#30959#0" expanded="false" />
-            <element signature="e#31042#31301#0" expanded="false" />
-            <element signature="e#31418#31522#0" expanded="false" />
-            <element signature="e#31593#31639#0" expanded="false" />
-            <element signature="e#31655#31757#0" expanded="false" />
-            <element signature="e#31862#31908#0" expanded="false" />
-            <element signature="e#31982#34944#0" expanded="false" />
-            <element signature="e#32554#33370#0" expanded="false" />
-            <element signature="e#34375#34772#0" expanded="false" />
-            <element signature="e#34385#34466#0" expanded="false" />
-            <element signature="e#34778#34934#0" expanded="false" />
-            <element signature="e#35108#35208#0" expanded="false" />
-            <element signature="e#35293#35376#0" expanded="false" />
-            <element signature="e#35664#37404#1" expanded="false" />
-            <element signature="e#35692#35696#0" expanded="false" />
-            <element signature="e#35831#35904#0" expanded="false" />
-            <element signature="e#36056#36140#0" expanded="false" />
-            <element signature="e#36145#36221#0" expanded="false" />
-            <element signature="e#36607#36681#0" expanded="false" />
-            <element signature="e#36742#36831#0" expanded="false" />
-            <element signature="e#36988#37383#0" expanded="false" />
-            <element signature="e#37408#37614#0" expanded="false" />
-            <element signature="e#37733#37829#0" expanded="false" />
-            <element signature="e#38063#38153#0" expanded="false" />
-            <element signature="e#38324#38718#0" expanded="false" />
-            <element signature="e#38803#38943#0" expanded="false" />
-            <element signature="e#38818#38937#0" expanded="false" />
-            <element signature="e#38849#38936#0" expanded="false" />
-            <element signature="e#38949#38966#0" expanded="false" />
-            <element signature="e#39012#39073#0" expanded="false" />
-            <element signature="e#39149#39220#0" expanded="false" />
-            <element signature="e#39454#39541#0" expanded="false" />
-            <element signature="e#39756#41508#0" expanded="false" />
-            <element signature="e#39803#41437#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3151" max-vertical-offset="23775">
-          <caret line="171" column="43" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#832#855#0" expanded="false" />
-            <element signature="e#3758#3998#0" expanded="false" />
-            <element signature="e#4056#4460#0" expanded="false" />
-            <element signature="e#4088#4454#0" expanded="false" />
-            <element signature="e#4931#4935#0" expanded="false" />
-            <element signature="e#5003#5007#0" expanded="false" />
-            <element signature="e#6842#7075#0" expanded="false" />
-            <element signature="e#7244#7385#0" expanded="false" />
-            <element signature="e#7291#7379#0" expanded="false" />
-            <element signature="e#7837#8030#0" expanded="false" />
-            <element signature="e#8357#8452#0" expanded="false" />
-            <element signature="e#8776#8897#0" expanded="false" />
-            <element signature="e#9017#9127#0" expanded="false" />
-            <element signature="e#9052#9101#0" expanded="false" />
-            <element signature="e#9135#9255#0" expanded="false" />
-            <element signature="e#9347#9449#0" expanded="false" />
-            <element signature="e#9380#9425#0" expanded="false" />
-            <element signature="e#9457#9573#0" expanded="false" />
-            <element signature="e#9704#9746#0" expanded="false" />
-            <element signature="e#9754#9980#0" expanded="false" />
-            <element signature="e#10102#10190#0" expanded="false" />
-            <element signature="e#10196#10249#0" expanded="false" />
-            <element signature="e#10257#10496#0" expanded="false" />
-            <element signature="e#10898#10969#0" expanded="false" />
-            <element signature="e#11106#11203#0" expanded="false" />
-            <element signature="e#11449#11532#0" expanded="false" />
-            <element signature="e#11694#11823#0" expanded="false" />
-            <element signature="e#12010#12096#0" expanded="false" />
-            <element signature="e#12198#12298#0" expanded="false" />
-            <element signature="e#12674#13020#0" expanded="false" />
-            <element signature="e#13156#14244#0" expanded="false" />
-            <element signature="e#14376#15162#0" expanded="false" />
-            <element signature="e#14547#14874#0" expanded="false" />
-            <element signature="e#14633#14866#0" expanded="false" />
-            <element signature="e#15000#15149#0" expanded="false" />
-            <element signature="e#15036#15125#0" expanded="false" />
-            <element signature="e#15168#15219#0" expanded="false" />
-            <element signature="e#15227#15278#0" expanded="false" />
-            <element signature="e#15490#15588#0" expanded="false" />
-            <element signature="e#15594#15694#0" expanded="false" />
-            <element signature="e#15702#15925#0" expanded="false" />
-            <element signature="e#16163#16283#0" expanded="false" />
-            <element signature="e#16209#16277#0" expanded="false" />
-            <element signature="e#16299#16595#0" expanded="false" />
-            <element signature="e#16754#16843#0" expanded="false" />
-            <element signature="e#16863#16899#0" expanded="false" />
-            <element signature="e#16964#17000#0" expanded="false" />
-            <element signature="e#17113#17260#0" expanded="false" />
-            <element signature="e#17155#17254#0" expanded="false" />
-            <element signature="e#17343#17408#0" expanded="false" />
-            <element signature="e#17471#17513#0" expanded="false" />
-            <element signature="e#17603#17684#0" expanded="false" />
-            <element signature="e#17827#18027#0" expanded="false" />
-            <element signature="e#18088#18242#0" expanded="false" />
-            <element signature="e#18349#18415#0" expanded="false" />
-            <element signature="e#18421#18471#0" expanded="false" />
-            <element signature="e#18689#18753#0" expanded="false" />
-            <element signature="e#19020#19235#0" expanded="false" />
-            <element signature="e#19466#19751#0" expanded="false" />
-            <element signature="e#20062#20402#0" expanded="false" />
-            <element signature="e#20689#20789#0" expanded="false" />
-            <element signature="e#22538#23072#0" expanded="false" />
-            <element signature="e#23641#24896#0" expanded="false" />
-            <element signature="e#25169#25361#0" expanded="false" />
-            <element signature="e#25369#25655#0" expanded="false" />
-            <element signature="e#25936#26279#0" expanded="false" />
-            <element signature="e#26583#26984#0" expanded="false" />
-            <element signature="e#27368#27510#0" expanded="false" />
-            <element signature="e#27763#27980#0" expanded="false" />
-            <element signature="e#28194#28304#0" expanded="false" />
-            <element signature="e#28212#28280#0" expanded="false" />
-            <element signature="e#28312#28533#0" expanded="false" />
-            <element signature="e#28768#28882#0" expanded="false" />
-            <element signature="e#28786#28858#0" expanded="false" />
-            <element signature="e#28890#29123#0" expanded="false" />
-            <element signature="e#29280#29370#0" expanded="false" />
-            <element signature="e#29395#29615#0" expanded="false" />
-            <element signature="e#29782#29902#0" expanded="false" />
-            <element signature="e#29800#29871#0" expanded="false" />
-            <element signature="e#29910#30229#0" expanded="false" />
-            <element signature="e#30341#30744#0" expanded="false" />
-            <element signature="e#30395#30738#0" expanded="false" />
-            <element signature="e#30419#30679#0" expanded="false" />
-            <element signature="e#30584#30669#0" expanded="false" />
-            <element signature="e#32717#32781#0" expanded="false" />
-            <element signature="e#32913#32979#0" expanded="false" />
-            <element signature="e#33122#33199#0" expanded="false" />
-            <element signature="e#33338#33507#0" expanded="false" />
-            <element signature="e#33931#34010#0" expanded="false" />
-            <element signature="e#34651#34734#0" expanded="false" />
-            <element signature="e#34859#35604#0" expanded="false" />
-            <element signature="e#34867#34947#0" expanded="false" />
-            <element signature="e#35066#35216#0" expanded="false" />
-            <element signature="e#35610#35692#0" expanded="false" />
-            <element signature="e#35700#35817#0" expanded="false" />
-            <element signature="e#35943#36050#0" expanded="false" />
-            <element signature="e#35969#36016#0" expanded="false" />
-            <element signature="e#36022#36044#0" expanded="false" />
-            <element signature="e#36148#36340#0" expanded="false" />
-            <element signature="e#36182#36334#0" expanded="false" />
-            <element signature="e#36204#36326#0" expanded="false" />
-            <element signature="e#36573#36761#0" expanded="false" />
-            <element signature="e#36997#37104#0" expanded="false" />
-            <element signature="e#37023#37070#0" expanded="false" />
-            <element signature="e#37076#37098#0" expanded="false" />
-            <element signature="e#37243#37445#0" expanded="false" />
-            <element signature="e#37283#37327#0" expanded="false" />
-            <element signature="e#37350#37369#0" expanded="false" />
-            <element signature="e#37392#37411#0" expanded="false" />
-            <element signature="e#37417#37439#0" expanded="false" />
-            <element signature="e#37598#37921#0" expanded="false" />
-            <element signature="e#38404#38927#0" expanded="false" />
-            <element signature="e#39528#39722#0" expanded="false" />
-            <element signature="e#39968#40056#0" expanded="false" />
-            <element signature="e#40628#40916#0" expanded="false" />
-            <element signature="e#40773#40839#0" expanded="false" />
-            <element signature="e#41095#41269#0" expanded="false" />
-            <element signature="e#41440#41575#0" expanded="false" />
-            <element signature="e#41506#41556#0" expanded="false" />
-            <element signature="e#41717#42127#0" expanded="false" />
-            <element signature="e#42253#42330#0" expanded="false" />
-            <element signature="e#42552#42638#0" expanded="false" />
-            <element signature="e#42715#42860#0" expanded="false" />
-            <element signature="e#42791#42844#0" expanded="false" />
-            <element signature="e#43013#43909#0" expanded="false" />
-            <element signature="e#44240#44419#0" expanded="false" />
-            <element signature="e#44280#44322#0" expanded="false" />
-            <element signature="e#44376#44418#0" expanded="false" />
-            <element signature="e#44441#44934#0" expanded="false" />
-            <element signature="e#46054#46741#0" expanded="false" />
-            <element signature="e#46858#46965#0" expanded="false" />
-            <element signature="e#46906#46959#0" expanded="false" />
-            <element signature="e#46973#47196#0" expanded="false" />
-            <element signature="e#47250#47286#0" expanded="false" />
-            <element signature="e#47446#48573#0" expanded="false" />
-            <element signature="e#47454#47538#0" expanded="false" />
-            <element signature="e#47680#48265#0" expanded="false" />
-            <element signature="e#47951#48005#0" expanded="false" />
-            <element signature="e#48011#48257#0" expanded="false" />
-            <element signature="e#48598#48650#0" expanded="false" />
-            <element signature="e#48670#48786#0" expanded="false" />
-            <element signature="e#49383#49921#0" expanded="false" />
-            <element signature="e#50009#50034#0" expanded="false" />
-            <element signature="e#50040#50550#0" expanded="false" />
-            <element signature="e#50076#50339#0" expanded="false" />
-            <element signature="e#50380#50409#0" expanded="false" />
-            <element signature="e#50415#50544#0" expanded="false" />
-            <element signature="e#50440#50516#0" expanded="false" />
-            <element signature="e#51190#51276#0" expanded="false" />
-            <element signature="e#51318#51369#0" expanded="false" />
-            <element signature="e#52124#52261#0" expanded="false" />
-            <element signature="e#52177#52255#0" expanded="false" />
-            <element signature="e#52412#52509#0" expanded="false" />
-            <element signature="e#52787#52924#0" expanded="false" />
-            <element signature="e#52840#52918#0" expanded="false" />
-            <element signature="e#53082#53151#0" expanded="false" />
-            <element signature="e#53371#53445#0" expanded="false" />
-            <element signature="e#53723#54143#0" expanded="false" />
-            <element signature="e#54204#54303#0" expanded="false" />
-            <element signature="e#54337#54446#0" expanded="false" />
-            <element signature="e#55181#55185#0" expanded="false" />
-            <element signature="e#55896#56007#0" expanded="false" />
-            <element signature="e#56146#56257#0" expanded="false" />
-            <element signature="e#56541#56807#0" expanded="false" />
-            <element signature="e#56875#57068#0" expanded="false" />
-            <element signature="e#56945#56996#0" expanded="false" />
-            <element signature="e#57002#57062#0" expanded="false" />
-            <element signature="e#57076#57264#0" expanded="false" />
-            <element signature="e#57457#57797#0" expanded="false" />
-            <element signature="e#58300#58537#0" expanded="false" />
-            <element signature="e#58397#58536#0" expanded="false" />
-            <element signature="e#58752#59379#0" expanded="false" />
-            <element signature="e#59059#59147#0" expanded="false" />
-            <element signature="e#59763#59884#0" expanded="false" />
-            <element signature="e#60399#60532#0" expanded="false" />
-            <element signature="e#60782#60844#0" expanded="false" />
-            <element signature="e#60850#60928#0" expanded="false" />
-            <element signature="e#62615#62704#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modifiedSpark-server/core/src/main/scala/org/apache/spark/rdd/PairRDDFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="12250" max-vertical-offset="28675">
-          <caret line="490" column="6" selection-start-line="490" selection-start-column="6" selection-end-line="490" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2013808" vertical-offset="2381" max-vertical-offset="3850">
-          <caret line="178" column="61" selection-start-line="178" selection-start-column="61" selection-end-line="178" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1110#2280#1" expanded="true" />
-            <element signature="e#2320#3633#1" expanded="true" />
-            <element signature="e#2808#2847#0" expanded="true" />
-            <element signature="e#4617#4871#0" expanded="true" />
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modified-Spark/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1395" column="6" selection-start-line="1395" selection-start-column="6" selection-end-line="1395" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modified-Spark/core/src/main/scala/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar!/scala/reflect/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24067388">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modified-Spark/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5955882">
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modified-Spark/core/src/main/scala/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../modified-Spark/assembly/target/scala-2.10/spark-assembly-1.3.2-SNAPSHOT-hadoop2.5.0-cdh5.3.2.jar!/org/apache/spark/sqlserver/submitter/DAGSubmitter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04411765">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../modified-Spark/assembly/target/scala-2.10/spark-assembly-1.3.2-SNAPSHOT-hadoop2.5.0-cdh5.3.2.jar!/org/apache/spark/rdd/RDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5555556">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modified-Spark/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7058824">
+          <caret line="1427" column="52" selection-start-line="1427" selection-start-column="44" selection-end-line="1427" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modified-Spark/core/src/main/scala/org/apache/spark/sqlserver/submitter/DAGSubmitter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="90" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleAppClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022058824">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <element signature="e#461#534#0" expanded="false" />
+            <element signature="e#3544#4290#0" expanded="false" />
+            <element signature="e#3960#4048#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1679,8 +887,13 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>untitled-2:jar</last-edited>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>simpleappclient:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1705,7 +918,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.10.4</last-edited>
+          <last-edited>spark-assembly-1.6.2-SNAPSHOT-hadoop2.5.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1729,7 +942,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>untitled-2</last-edited>
+          <last-edited>simpleappclient</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1753,7 +966,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>spark-assembly-1.3.2-SNAPSHOT-hadoop2.4.0</last-edited>
+          <last-edited>scala-sdk-2.10.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

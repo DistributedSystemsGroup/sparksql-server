@@ -21,7 +21,7 @@ import fr.eurecom.dsg.sparksqlserver.container.{DAGContainer, OptimizedBag, Rewr
 import fr.eurecom.dsg.sparksqlserver.rewriter.RewriteRule
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sqlserver.SimultaneousPipeline
+//import org.apache.spark.sqlserver.SimultaneousPipeline
 
 /**
  * Created by hoang on 6/18/15.
@@ -42,14 +42,14 @@ class MultiplePipelines extends RewriteRule {
     }
 
     //create a SimultaneousPipeLine Executor and execute it
-    val sm : SimultaneousPipeline = new SimultaneousPipeline(sc, rdds, "")
-    val resDAG : RDD[_] = sm.execute()
+    //val sm : SimultaneousPipeline = new SimultaneousPipeline(sc, rdds, "")
+    //val resDAG : RDD[_] = sm.execute()
 
-    println(resDAG.toDebugString)
+    //println(resDAG.toDebugString)
 
     //create a new RewrittenBag to return from the returned DAG
     val resDAGCtn : DAGContainer = new DAGContainer()
-    resDAGCtn.setDAG(resDAG)
+    //resDAGCtn.setDAG(resDAG)
     var resArr : Array[DAGContainer] = Array[DAGContainer]()
     resArr = resArr :+ resDAGCtn
 

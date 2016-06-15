@@ -19,17 +19,20 @@ package fr.eurecom.dsg.sparksqlserver.scheduler.postscheduler.strategies
 
 import fr.eurecom.dsg.sparksqlserver.container.{DAGContainer, RewrittenBag}
 import fr.eurecom.dsg.sparksqlserver.scheduler.postscheduler.{PostSchedulingStrategy, PostScheduler}
-import org.apache.spark.{SerializableWritable, SparkContext}
+import org.apache.spark.deploy.SparkHadoopUtil
+import org.apache.spark.util.SerializableConfiguration
+import org.apache.spark.{Logging, SerializableWritable, SparkContext}
 import org.apache.spark.rdd.RDD
 
 /**
  * Created by hoang on 6/24/15.
  * FIFOstrategy before submitting rewritten jobs to the cluster
  */
-class FIFOStrategy extends PostSchedulingStrategy{
+class FIFOStrategy extends PostSchedulingStrategy with Logging {
 
   /**
    * get RewriteRuleName, due to each kind of rule, we do the associated scheduling
+   *
    * @param sc
    * @param rewritten
    */
@@ -43,21 +46,25 @@ class FIFOStrategy extends PostSchedulingStrategy{
         } else if(rewritten{i}.getRewriteRuleName.contains("MRSHARE")) {
           scanSchedulingForMRShare(lstDag, rewritten{i}.getRewriteRuleName)
         }
+      } else if(rewritten{i}.getRewriteRuleName.contains("JOIN")) {
+
+      } else if(rewritten{i}.getRewriteRuleName.contains("NOOP")) {
+          noopScheduling(lstDag, rewritten{i}.getRewriteRuleName)
       }
-      else
-        if(rewritten{i}.getRewriteRuleName.contains("JOIN")) {
-        }
+
 
   }
   /**
    * Scheduling for scan, which is using CACHE
    * Execute the first job in the list, then execute the rest concurrently
+   *
    * @param lstDag
    * @param rlName
    */
   def scanSchedulingForCaching(lstDag : Array[DAGContainer], rlName : String): Unit = {
-    if(!sc.checkBroadCastInfoExisted(1))
-      sc.broadcastBySQLServer(new SerializableWritable(sc.hadoopConfiguration), 1)
+    //if(!sc.checkBroadCastInfoExisted(1))
+    //sc.createBroadcast("README.md", 0)
+    sc.broadcastBySQLServer(new SerializableConfiguration(SparkHadoopUtil.get.newConfiguration(sc.getConf)), 0)
     var Opath : String = ""
     Opath = lstDag{0}.getMetadata().getDescriptor.get("OUTPUT").get.asInstanceOf[String]
     lstDag{0}.getDAG().saveAsTextFile(Opath)
@@ -72,15 +79,28 @@ class FIFOStrategy extends PostSchedulingStrategy{
   /**
    * Scheduling for scan, which is using MRSHARE
    * Execute the jobs in FIFO order.
+   *
    * @param lstDag
    * @param rlName
    */
   def scanSchedulingForMRShare(lstDag: Array[DAGContainer], rlName: String): Unit = {
-    if(!sc.checkBroadCastInfoExisted(1))
-      sc.broadcastBySQLServer(new SerializableWritable(sc.hadoopConfiguration), 1)
+    //if(!sc.checkBroadCastInfoExisted(1))
+    //sc.createBroadcast("README.md", 0)
+    sc.broadcastBySQLServer(new SerializableConfiguration(SparkHadoopUtil.get.newConfiguration(sc.getConf)), 0)
     val Opath: String = System.currentTimeMillis().toString
     for(i<-0 to lstDag.size - 1)
       lstDag{i}.getDAG().saveAsTextFile(Opath)
+  }
+
+  def noopScheduling(lstDag: Array[DAGContainer], rlName: String): Unit = {
+    log.info("-------- noopScheduling --------")
+    //sc.createBroadcast("README.md", 0)
+    //sc.textFile("README.md")
+    val oPath: String = "output" + System.currentTimeMillis().toString
+    for(i<-0 to lstDag.size - 1) {
+      sc.broadcastBySQLServer(new SerializableConfiguration(SparkHadoopUtil.get.newConfiguration(sc.getConf)), 0)
+      lstDag {i}.getDAG().saveAsTextFile(oPath)
+    }
   }
 }
 

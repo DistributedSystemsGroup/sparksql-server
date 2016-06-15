@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/}sparksql-server-build...
+[info] Updating {file:/Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/}sparksql-server-build...
 [debug] :: resolving dependencies :: default#sparksql-server-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#sparksql-server-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#sparksql-server-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55bf9b34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17d8ac99
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
@@ -1337,19 +1337,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1567ms :: artifacts dl 36ms
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT compile produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-compile.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT runtime produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-runtime.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT test produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-test.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT provided produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-provided.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT optional produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-optional.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT compile-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-compile-internal.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT runtime-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-runtime-internal.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT test-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-test-internal.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT plugin produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-plugin.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT sources produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-sources.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT docs produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-docs.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT pom produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-pom.xml
-[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT scala-tool produced in /Users/suwax/WORKSPACE-INTELLIJ/testSQLServer/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-scala-tool.xml
-[debug] 	resolve done (1567ms resolve - 36ms download)
+[debug] :: resolution report :: resolve 1751ms :: artifacts dl 30ms
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT compile produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-compile.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT runtime produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-runtime.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT test produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-test.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT provided produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-provided.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT optional produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-optional.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT compile-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-compile-internal.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT runtime-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-runtime-internal.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT test-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-test-internal.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT plugin produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-plugin.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT sources produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-sources.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT docs produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-docs.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT pom produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-pom.xml
+[debug] 	report for default#sparksql-server-build;0.1-SNAPSHOT scala-tool produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/sparksql-server/project/target/resolution-cache/reports/default-sparksql-server-build-scala-tool.xml
+[debug] 	resolve done (1751ms resolve - 30ms download)
 [info] Done updating.

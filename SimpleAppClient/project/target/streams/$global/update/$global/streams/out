@@ -1,30 +1,30 @@
-[info] Updating {file:/home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/}untitled-2-build...
-[debug] :: resolving dependencies :: default#untitled-2-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/}simpleappclient-build...
+[debug] :: resolving dependencies :: default#simpleappclient-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31386a4b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21edf65f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.5 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.5
@@ -570,17 +570,17 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -901,22 +901,22 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1237,18 +1237,18 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#untitled-2-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#simpleappclient-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -1266,8 +1266,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -1282,11 +1282,11 @@
 [debug] 	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#untitled-2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#simpleappclient-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
@@ -1337,19 +1337,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 5031ms :: artifacts dl 156ms
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT compile produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-compile.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT runtime produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-runtime.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT test produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-test.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT provided produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-provided.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT optional produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-optional.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT compile-internal produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-compile-internal.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT runtime-internal produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-runtime-internal.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT test-internal produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-test-internal.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT plugin produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-plugin.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT sources produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-sources.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT docs produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-docs.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT pom produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-pom.xml
-[debug] 	report for default#untitled-2-build;0.1-SNAPSHOT scala-tool produced in /home/hoang/DATA/WORKSPACE-INTELLIJ/untitled-2/project/target/resolution-cache/reports/default-untitled-2-build-scala-tool.xml
-[debug] 	resolve done (5031ms resolve - 156ms download)
+[debug] :: resolution report :: resolve 2569ms :: artifacts dl 64ms
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT compile produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-compile.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT runtime produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-runtime.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT test produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-test.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT provided produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-provided.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT optional produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-optional.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT compile-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-compile-internal.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT runtime-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-runtime-internal.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT test-internal produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-test-internal.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT plugin produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-plugin.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT sources produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-sources.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT docs produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-docs.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT pom produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-pom.xml
+[debug] 	report for default#simpleappclient-build;0.1-SNAPSHOT scala-tool produced in /Users/suwax/WORKSPACE-INTELLIJ/pull/sparksql-server/SimpleAppClient/project/target/resolution-cache/reports/default-simpleappclient-build-scala-tool.xml
+[debug] 	resolve done (2569ms resolve - 64ms download)
 [info] Done updating.

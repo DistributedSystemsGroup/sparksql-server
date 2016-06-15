@@ -26,6 +26,7 @@ import org.apache.spark.deploy.SparkHadoopUtil
 import org.apache.spark.rdd.{HadoopRDD, ShuffledRDD, MapPartitionsRDD, RDD}
 import org.apache.spark._
 import org.apache.spark.sql._
+import org.apache.spark.util.SerializableConfiguration
 
 
 import scala.tools.nsc.util.ScalaClassLoader.URLClassLoader
@@ -86,7 +87,8 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
 
   /**
    * Receive each RDD, its dependency and reassemble them into a DAG
-   * @param in
+    *
+    * @param in
    * @return
    */
   def reassembleDAG(in : ClassLoaderOIS, sqlC : SQLContext, classLoader : URLClassLoader): RDD[_] = {
@@ -95,7 +97,7 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
     var queue : Seq[Object] = Nil
     val nullDep : Seq[Dependency[_]] = Nil
     var splitArr : Seq[String] = Nil
-    var dfIndex = 0
+    var dfIndex = -1
     while(lastDep) {
       val deps = in.readObject()
       if (deps.isInstanceOf[String]) {
@@ -150,15 +152,29 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
       }
     }
 
-    //sqlC.createDataFrame(queue{dfIndex}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd, queue{dfIndex+1}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd.elementClassTag.runtimeClass).toDF().registerTempTable(splitArr{1})
+    if(dfIndex != -1) {
+      val dfrdd : RDD[_] = queue{dfIndex}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd
+      val beanClass : Class[_] = queue{dfIndex+1}.asInstanceOf[Seq[Dependency[_]]]{0}.rdd.elementClassTag.runtimeClass;
 
-    val id = queue{queue.length - 1}.asInstanceOf[Seq[Dependency[_]]]{0}
-                                    .rdd.asInstanceOf[HadoopRDD[_,_]].getBroadcastedConf().id
+      val df : DataFrame = sqlC.createDataFrame(dfrdd, beanClass).toDF()
 
-    if(!sc.checkBroadCastInfoExisted(id))
-      sc.broadcastBySQLServer(new SerializableWritable(sc.hadoopConfiguration), id)
+      df.registerTempTable(splitArr{1})
+    }
 
-    log.info(rdd.toDebugString)
+    //val id = queue{queue.length - 1}.asInstanceOf[Seq[Dependency[_]]]{0}
+    //                                .rdd.asInstanceOf[HadoopRDD[_,_]].getBroadcastedConf().id
+
+    //if(!sc.checkBroadCastInfoExisted(id))
+
+    //sc.broadcastBySQLServer(new SerializableConfiguration(SparkHadoopUtil.get.newConfiguration(sc.getConf)), 0)
+
+    //sc.createBroadcast("README.md", 0);
+
+    //sc.textFile("README.md")
+
+    //log.info(rdd.toDebugString)
+
+    //rdd.saveAsTextFile("outputt" + System.currentTimeMillis())
 
     rdd
   }
@@ -192,17 +208,17 @@ case class DAGListenerThread(socket: Socket, sc: SparkContext, sqlC: SQLContext,
 
       dagCtn.setMetadata(new DAGMetadata)
 
-      val nameArr : Array[String] = clientRDD.getName().split("__")
+      /*val nameArr : Array[String] = clientRDD.getName().split("__")
 
-      dagCtn.updateMetadata("OUTPUT", nameArr{0})
+      dagCtn.updateMetadata("OUTPUT", nameArr{0})*/
 
-      if(nameArr.size > 1) {
+      /*if(nameArr.size > 1) {
         val metadataArr : Array[String] = nameArr{1}.split(" ")
         for(i<-0 to metadataArr.size - 1){
           val meta : Array[String] = metadataArr{i}.split(":")
           dagCtn.updateMetadata(meta{0}, meta{1})
         }
-      }
+      }*/
 
       this.synchronized {
         dagQueue.queue.enqueue(dagCtn)

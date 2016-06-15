@@ -4,7 +4,7 @@
 		module="sparksql-server-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150815105629"
+		publication="20160302142639"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
